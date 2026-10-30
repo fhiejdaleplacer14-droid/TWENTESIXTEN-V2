@@ -1,0 +1,471 @@
+{
+  "names": {
+    "lola": "Lola",
+    "cora": "Ate Cora",
+    "tonyo": "Mang Tonyo",
+    "linda": "Ma'am Linda",
+    "mila": "Ate Mila",
+    "berto": "Kuya Berto",
+    "rosa": "Aling Rosa",
+    "karding": "Mang Karding",
+    "vendor": "Manong",
+    "kid": "Bata",
+    "baller": "Bata",
+    "nena": "Aling Nena",
+    "jun": "Kuya Jun",
+    "liza": "Ate Liza",
+    "ben": "Mang Ben",
+    "baby": "Tita Baby",
+    "rudy": "Manong Rudy",
+    "ising": "Lolo Ising",
+    "bong": "Bong",
+    "jenjen": "Jenjen"
+  },
+
+  "ui": {
+    "update": { "ready": "May bagong bersyon na.", "now": "I-update", "later": "Mamaya" },
+    "menu": { "start": "Simulan", "continue": "Ituloy", "newGame": "Bagong laro", "controls": "Kontrol", "settings": "Settings", "credits": "Credits" },
+    "settings": {
+      "volume": "Lakas ng tunog",
+      "textSpeed": "Bilis ng teksto",
+      "effects": "Effects",
+      "fullscreen": "Fullscreen",
+      "language": "Wika",
+      "speeds": ["Mabagal", "Normal", "Mabilis"],
+      "effectLevels": ["Mababa", "Katamtaman", "Mataas"],
+      "on": "Bukas",
+      "off": "Sarado"
+    },
+    "hints": {
+      "keys": { "main": "↑ ↓  pumili        Enter  piliin", "settings": "↑ ↓  pumili        ← →  baguhin        Esc  bumalik", "other": "Esc  bumalik", "language": "↑ ↓  pumili        Enter  piliin" },
+      "touch": { "main": "pindutin para pumili", "settings": "pindutin ang setting para baguhin", "other": "pindutin ang menu para bumalik", "language": "pindutin para pumili" }
+    },
+    "controls": {
+      "walk": "Maglakad (puwede rin ang arrow keys)",
+      "run": "Tumakbo (natutumba ang gamit)",
+      "talk": "Makipag-usap, tumingin, magpatuloy",
+      "photo": "Tingnan ang litrato",
+      "letter": "Basahin ang sulat",
+      "gamepadLabel": "Gamepad",
+      "gamepad": "stick lakad · RB takbo · A usap · X litrato · Y sulat",
+      "touchLabel": "Touch",
+      "touch": "i-drag sa kaliwa: lakad · pindot sa kanan: usap"
+    },
+    "credits": ["Sining", "  Kenney  (kenney.nl)  CC0", "  Roguelike Modern City, RPG Urban Pack", "", "Font", "  Pixelify Sans  SIL OFL 1.1", "", "Engine", "  Phaser, Three.js", "", "Tunog", "  gawa sa browser, walang sample", "", "Musika", "  Mga awiting-bayan (tradisyonal):", "  Bahay Kubo, Leron Leron Sinta,", "  Dandansoy, Ili-Ili Tulog Anay"],
+    "hud": {
+      "errand": "pakiusap   {text}",
+      "memories": "alaala  {n} / {total}",
+      "photo": "Q  litrato",
+      "letter": "R  sulat",
+      "helpKeys": "WASD / arrows para maglakad     Shift para tumakbo     E para makipag-usap at tumingin",
+      "helpTouch": "I-drag sa kaliwa para maglakad     Pindutin ang E para makipag-usap",
+      "putAway": "Q para itago",
+      "foldAgain": "R para itiklop ulit",
+      "foldIt": "E para itiklop"
+    },
+    "pickLanguage": "Language · Wika · Pinulongan"
+  },
+
+  "signs": {
+    "school": "ELEMENTARY SCHOOL",
+    "market": "PALENGKE",
+    "store": "SARI-SARI",
+    "pisonet": "PISONET",
+    "carinderia": "CARINDERIA",
+    "bakery": "PANADERIA",
+    "toda": "TODA",
+    "noPee": "BAWAL UMIHI DITO",
+    "noLoitering": "BAWAL TUMAMBAY",
+    "arch": "MABUHAY! PUROK 3"
+  },
+
+  "emotes": {
+    "thoughts": { "hunger": "gutom...", "errand": "may bibilhin", "rest": "pagod", "social": "chismis!", "fun": "laro!", "calm": "...", "home": "uwi na" },
+    "chatter": ["haha", "talaga?", "ay nako", "oo nga", "..."],
+    "replies": ["haha", "oo nga", "..."],
+    "honk": "beep beep",
+    "crow": "tiktilaok!",
+    "hit": ["Hoy! Tumingin ka sa daan!", "Bulag ka ba?!", "Ay, sori boss!", "Hala! Ano ba 'yan?!"],
+    "tita": ["Naku! Okay ka lang, iho?", "Ingat ka naman, anak!", "Ay! Mahihimatay ang Lola mo!"],
+    "kickBack": ["ayan!", "sa'yo!", "saluhin mo!"],
+    "dazed": "@_@"
+  },
+
+  "story": {
+    "objectives": {
+      "talk_lola": "Nasa labas si Lola. Kausapin mo siya.",
+      "buy_vinegar": "Bumili ng suka sa sari-sari store.",
+      "bring_vinegar": "Iuwi ang suka kay Lola.",
+      "ask_tin": "Magtanong-tanong tungkol sa lata ni Lola.",
+      "old_places": "Mga lumang lugar: ang tindahan, ang court, ang eskwela.",
+      "more": "May bumabalik pang alaala. Lakarin ang buong barangay.",
+      "tree": "May puno noon. Lampas ng plaza.",
+      "bring_tin": "Iuwi ang lata kay Lola.",
+      "go_inside": "Pumasok ka sa loob."
+    },
+    "errands": {
+      "glue": "Dalhin ang pandikit at pako kay Mang Tonyo.",
+      "linda": "Sabihan si Ma'am Linda tungkol sa mga upuan.",
+      "mila": "Dalhin ang listahan kay Ate Mila sa carinderia.",
+      "berto": "Dumaan kay Kuya Berto sa panaderia."
+    },
+    "photo": {
+      "before": "Apat na bata sa harap ng tindahan, nakasingkit sa araw. Hawak ng isa ang lata ng biskwit na parang napakahalaga nito. Hindi mo maalala kung sino ang kumuha nito.",
+      "after": "Apat na bata sa harap ng tindahan. Sa ibaba ng litrato, ang mahabang anino ng taong may hawak na kamera, naka-duster."
+    },
+    "letter": [
+      "Dear me, pag malaki na,",
+      "",
+      "Ang tagal maging malaki. Lola says",
+      "be home before dark EVERY DAY.",
+      "When I am big I will come home",
+      "any time I want.",
+      "",
+      "Buy Lola a new tin. I took this one.",
+      "Sorry Lola.",
+      "",
+      "Don't forget the court.",
+      "Don't forget us.",
+      "",
+      "            - me, twentesixten"
+    ],
+    "lolaLetter": [
+      "Anak,",
+      "",
+      "Nakita kitang ibinaon ito.",
+      "Hinukay ko kinabukasan. Binasa ko.",
+      "Ibinalik ko rin. Hindi ko ginalaw",
+      "ang holen.",
+      "",
+      "Huwag mo na akong bilhan ng lata.",
+      "Umuwi ka lang paminsan-minsan.",
+      "Kahit hindi na bago dumilim.",
+      "",
+      "Naghihintay lang ako dito.",
+      "",
+      "                        - Lola"
+    ],
+    "whisper": "\"Kumain ka na ba?\"",
+    "closing": ["Ginugol natin ang buong pagkabata sa pagmamadaling lumaki.", "Iyon na yata ang pinakawalang-kuwentang hiniling natin."],
+    "hits": "Nasagasaan: {n}"
+  },
+
+  "residents": {
+    "going": {
+      "store": "Sa tindahan lang ako. May kulang sa kusina.",
+      "market": "Papunta akong palengke bago maubos ang magandang gulay.",
+      "cart": "Fishball muna. Kanina pa ako natatakam.",
+      "carinderia": "Kakain muna ako kina Mila. Gutom na ako.",
+      "bakery": "Bibili ako ng tinapay. Mainit pa siguro.",
+      "bench": "Uupo lang ako saglit. Masakit na ang paa ko.",
+      "court": "Manonood ako sa court. May naglalaro pa pala.",
+      "lot": "Sa bakanteng lote po! May mga manok doon!",
+      "creek": "Sa sapa lang. Mas malamig doon.",
+      "chapel": "Dadaan lang ako sa kapilya.",
+      "hangout": "Diyan lang, makikipagkuwentuhan.",
+      "home": "Pauwi na ako. Dumidilim na.",
+      "wake": "Papunta na ako sa inyo. Sabay na tayo."
+    },
+    "doing": {
+      "store": "Hinihintay ko si Cora. Ang tagal magsukli.",
+      "market": "Tinitingnan ko kung sariwa. Hindi mo pwedeng madaliin ito.",
+      "cart": "Lima pa nga, Manong. Yung maanghang ang sawsawan.",
+      "carinderia": "Adobo ngayon. Lagi namang adobo, pero masarap.",
+      "bakery": "Amoy pa lang, busog na ako.",
+      "bench": "Nagpapahinga lang. Ang sarap ng hangin dito.",
+      "court": "Tingnan mo 'yang batang 'yan. Araw-araw nandito, mag-isa.",
+      "lot": "Ang bilis nila tumakbo! Hindi ko mahuli!",
+      "creek": "Nakikinig lang ako sa tubig.",
+      "chapel": "Sandali lang. Nagdarasal ako.",
+      "hangout": "Nagkukuwentuhan lang kami. Wala namang bago, pero masaya.",
+      "home": "Papasok na ako.",
+      "wake": "Nandito lang kami. Hindi ka nag-iisa."
+    },
+    "lines": {
+      "nena": [
+        "Ay, ikaw na ba 'yan? Hindi kita nakilala. Ang payat mo dati.",
+        "Dadaan ako sa inyo mamaya, ha. Magdadala ako ng ginataan.",
+        "Dati kayo ang maingay sa kalyeng ito. Ngayon ako na lang."
+      ],
+      "jun": [
+        "Uy. Balita? Ako na ang may-ari ng pisonet. Oo, yung dati nating tinatambayan.",
+        "Wala nang masyadong naglalaro. Lahat may cellphone na.",
+        "May utang ka pa sa aking limang piso. Biro lang. Hindi biro."
+      ],
+      "liza": [
+        "Uy! Kailan ka pa dumating? Bisita ka sa bahay, ha.",
+        "Nakita mo na si Ma'am Linda? Tinatanong ka pa rin niya.",
+        "Ang bilis ng panahon. Parang kahapon lang, umiiyak ka sa court."
+      ],
+      "ben": [
+        "Ikaw yung apo diyan sa may kanto, 'di ba? Kamukha mo ang tatay mo.",
+        "Ako ang nagsemento ng kalsadang ito. Tingnan mo, buo pa.",
+        "Huwag kang magmamadali, hijo. Nandiyan lang ang lahat."
+      ],
+      "baby": [
+        "Ay nako, ang laki mo na! May asawa ka na ba?",
+        "Wala? Sayang. May pamangkin ako. Mabait.",
+        "Sige na nga. Basta kumain ka. Ang payat mo."
+      ],
+      "rudy": [
+        "Katatapos lang ng trabaho. May itinatayo sa kabilang kanto.",
+        "Lahat ng bakanteng lote dito, may bibili na. Sayang ang mga puno.",
+        "Yung lumang puno? Hindi pa. Wala pang may lakas ng loob."
+      ],
+      "ising": [
+        "Kilala kita. Ikaw yung batang laging nagtatanong kung anong oras na.",
+        "Hindi na ako nagmamadali. Wala na akong hinahabol.",
+        "Ang Lola mo, nililigawan ko dati. Huwag mong sasabihin."
+      ],
+      "bong": [
+        "Kuya, taga-Maynila ka na raw? Totoo bang walang nakikipag-usap sa kapitbahay doon?",
+        "Gusto ko na ring umalis dito. Ang bagal ng lahat.",
+        "...Maganda ba doon? Talaga?"
+      ],
+      "jenjen": [
+        "Kuya, ilang taon ka na? ...Ang tanda mo na pala.",
+        "Paglaki ko, magiging piloto ako. Bukas na sana.",
+        "Sabi ni Lola Nena, umuwi raw ako bago dumilim. Lagi na lang."
+      ]
+    }
+  },
+
+  "memories": {
+    "store": [
+      "Mas mataas sa ulo mo ang counter. Kailangan mong umabot at kapain ito.",
+      "Ibinuhos mo ang mga barya mula sa lata. Gumulong kung saan-saan.",
+      "\"Isa pong ice candy. Yung mango.\"",
+      "\"Kulang ng piso.\"   \"...Utang muna?\"",
+      "May kamay na bumaba mula sa bintana, may hawak pa ring ice candy.",
+      "\"Paglaki ko, bibilhin ko ang buong tindahan.\""
+    ],
+    "court": [
+      "Walang katapusan ang court. Mas mataas ang ring kaysa sa mga bubong.",
+      "\"Last shot! Last shot bago mag-dilim!\"",
+      "\"Paglaki ko, idu-dunk ko kayong lahat.\"",
+      "\"Paglaki ko, hindi na ako babalik dito. Magkakakotse ako.\"",
+      "May tumawa. May lola nang tumatawag.",
+      "Nakapatong ang lata sa tabi ng poste, kung saan walang makakatapak."
+    ],
+    "school": [
+      "Mahaba ang pila at mainit na ang araw. Kumakanta ang lahat.",
+      "Abot hanggang eroplano ang taas ng poste.",
+      "\"Ma'am, ilang taon pa po bago ako matapos?\"",
+      "\"Walo, kung mag-aaral ka.\"",
+      "Walo. Binilang mo sa daliri at naubos muna ang pasensya mo.",
+      "\"Ang tagal naman.\""
+    ],
+    "chapel": [
+      "Madilim pa. Ang kamay ni Lola lang ang mainit.",
+      "Mas matangkad sa'yo ang mga kandila. Iisang salita ang ibinubulong ng lahat.",
+      "Nakatulog ka sa braso niya bago pa ang pangalawang kanta.",
+      "\"Paglaki ko, hinding-hindi na ako gigising nang ganito kaaga.\"",
+      "Pagkatapos, may bibingka, at iyon lang talaga ang dahilan kung bakit ka sumama."
+    ],
+    "market": [
+      "Lahat ay kasing-taas ng mata mo: mga tuhod, mga bilao, mga buntot ng isda.",
+      "\"Kapit ka sa palda ko. Huwag kang bibitaw.\"",
+      "Bumitaw ka nang isang beses, isang segundo lang, para tingnan ang mga sisiw na kinulayan ng pink at berde.",
+      "Puro estranghero ang buong palengke. Tapos ang boses niya, tinatawag ang buong pangalan mo.",
+      "\"Paglaki ko, ako na ang magbubuhat ng bayong.\""
+    ],
+    "bakery": [
+      "Amoy-tinapay ang alas-kuwatro ng umaga.",
+      "Sampung piso sa kamao mo, tiniklop nang sobrang liit kaya basa na.",
+      "\"Sampung pandesal po. Yung mainit.\"",
+      "Kumain ka ng dalawa pauwi at sinisi mo ang supot.",
+      "\"Paglaki ko, kakain ako ng pandesal hanggang mabusog. Walang magbibilang.\""
+    ],
+    "fountain": [
+      "Umaandar ang fountain. Umaandar dahil fiesta.",
+      "May banderitas mula sa bawat bubong hanggang sa bawat bubong.",
+      "Kumakanta ang tito ng kung sino. Hindi siya magaling. Pumapalakpak ang lahat.",
+      "Naghulog kayo ng tig-pipisong barya at iisa ang hiniling ninyo.",
+      "\"Sana lumaki na tayo.\""
+    ],
+    "pisonet": [
+      "Isang piso. Limang minuto. May apat kang piso at isang plano.",
+      "Masyadong mataas ang upuan. Burado na ang kalahati ng mga letra sa keyboard.",
+      "\"Uy, extend mo 'ko! Babayaran kita bukas!\"",
+      "Lumitaw sa pinto ang nanay ng kung sino, hawak ang isang tsinelas.",
+      "\"Paglaki ko, magkakaroon ako ng sariling computer. At walang magta-time sa akin.\""
+    ],
+    "bench": [
+      "Hindi abot ng mga paa mo ang lupa mula rito.",
+      "Namimili si Lola ng bato sa bigas. Dapat tumutulong ka.",
+      "Isa-isang sumisindi ang mga ilaw-poste, ang pinakamalayo ang una.",
+      "\"Lola, kailan ako magiging malaki?\"",
+      "\"Huwag kang magmadali. Hindi naman tumatakbo ang oras palayo sa'yo.\"",
+      "Hindi ka naniwala."
+    ],
+    "tree": [
+      "Inabot ng buong hapon ang butas. Itim na ang mga kamay mo.",
+      "Ipinasok ang holen. Ang mga teks. Ang sulat, tiniklop nang walong beses.",
+      "\"Walang magbubukas nito hangga't hindi pa ako malaki. Promise.\"",
+      "\"Gaano kalaki?\"   \"...Malaking-malaki.\"",
+      "Pinatag mo ang lupa at tinalunan pa, para sigurado."
+    ],
+    "creek": [
+      "Bawal ka rito.",
+      "Abot-dibdib ang tubig, at kulay-kape, at perpekto.",
+      "\"Walang magsusumbong, ha!\"",
+      "May laging nagsusumbong."
+    ]
+  },
+
+  "credits": {"starring": "TAMPOK SINA", "and": "at", "you": "ikaw, bilang apo niya", "by": "ISANG LARO NINA", "footage": "Bidyo sa wakas", "footageBy": "  saranggola sa dapithapon, mula sa team", "thanks": "Salamat sa paglalaro.", "skip": "SPACE para laktawan"},
+  "games": {
+    "store": {"how": "Gumulong ang mga barya kung saan-saan. Pulutin mo lahat.", "status": "{n} / {total} barya · {s}", "won": "Pati ang huling barya, pati ang nasa may baitang.", "lost": "May gumulong sa ilalim ng tindahan at hindi na bumalik."},
+    "school": {"how": "Sumabay sa kanta: pindutin ang E pagdating ng nota sa bilog.", "status": "{n} / {total} nota", "won": "Kinanta mo lahat, ikaw ang pinakamalakas sa pila. Binigyan ka ni Ma'am ng star sa kamay.", "lost": "Ibinulong mo na lang ang mga salitang hindi mo alam. Ganoon din ang lahat."},
+    "chapel": {"how": "Huwag kang matulog! Pindutin ang E para dumilat.", "status": "ikalawang kanta sa {s}", "won": "Umabot ka sa ikalawang kanta. Nakatulog ka sa ikatlo.", "lost": "Nakatulog ka sa braso niya bago pa ang ikalawang kanta."},
+    "bakery": {"how": "Saluhin ang mainit na pandesal sa supot. Gumalaw pakaliwa at pakanan.", "status": "{n} / {need} pandesal", "won": "Sampu, mainit, at dalawa pa para sa daan pauwi.", "lost": "May nahulog sa sahig. Dinagdagan pa rin ng panadero ang supot."},
+    "fountain": {"how": "E para pumili ng direksyon, E ulit para ihagis. Dalawang barya sa tubig.", "status": "{made} pasok · {thrown} sa {total} barya", "in": "plink!", "out": "kling", "won": "Dalawang barya ang pumasok. Hindi mo binigkas ang hiling, kaya bilang pa rin.", "lost": "Tumama sa gilid ang mga barya mo at gumulong sa ilalim ng entablado. Humiling ka pa rin."},
+    "pisonet": {"how": "Iwasan ang mga bloke hanggang maubos ang pera. Gumalaw pakaliwa at pakanan.", "status": "piso {coin} sa {total} · buhay {lives}", "won": "Apat na piso, at bagong high score. Ang initials mo, tinipa gamit ang tatlong letrang gumagana pa.", "lost": "Game over sa ikalawang piso. Nanood ka na lang sa iba."},
+    "bench": {"how": "Ano ang sasabihin mo sa kanya?", "won": "", "lost": "", "choices": [{"key": "big", "say": "\"Lola, kailan ako lalaki?\"", "reply": "\"Huwag kang magmadali. Hindi tumatakbo ang oras palayo sa'yo.\"", "after": "Hindi ka naniwala."}, {"key": "stay", "say": "\"Lola, nandito ka pa ba paglaki ko?\"", "reply": "\"Siyempre. Sino pa ang magpapakain sa'yo?\"", "after": "Naniwala ka."}, {"key": "help", "say": "(Huwag magsalita. Pumulot ng bato.)", "reply": "Humuhuni siya. Nakahanap ka ng isa pang bato, at isa pa.", "after": "Ito ang pinakamagandang bahagi ng araw, at hindi mo pa iyon alam."}]},
+    "court": {"how": "Pindutin ang E kapag nasa ginto ang marka. Dalawa sa tatlo.", "score": "{made} pasok · {shot} sa {total} tira", "yes": "pasok!", "no": "kalang", "won": "Dalawa sa tatlo. Walang naniwala, kaya inulit-ulit mo hanggang pag-uwi.", "lost": "Walang pumasok. Sabi ni Kuya, hangin daw. Walang hangin."},
+    "market": {"how": "Hanapin si Lola (lavender, puti ang buhok). Lapitan mo siya. E para tawagin.", "time": "{s}", "shout": "Lola!", "answer": "Anak!", "found": "Ayan ka pala!", "calling": "Anak! Anak!", "won": "Ikaw ang unang nakakita sa kanya. Ang higpit ng hawak niya sa kamay mo, at nagkunwari siyang hindi natakot.", "lost": "Siya ang nakakita sa iyo. Ang boses niya, binabanggit ang pangalan mo nang buo, tapos ang kamay niya, ang higpit."},
+    "creek": {"how": "Pumunta sa malalim na bahagi. Kapag tumingin si Aling Ising, magtago sa likod ng halaman o ng bangko.", "tries": "natitirang tsansa: {n}", "made": "Dito!", "caught": "Hoy! Isusumbong kita sa Lola mo!", "won": "Nalampasan mo si Aling Ising at ang labada niya, hanggang sa malalim. Hindi man lang siya lumingon.", "lost": "Nakita ka ni Aling Ising, tatlong beses. Lumusong ka pa rin."}
+  },
+
+  "dialogue": {
+    "lola_intro": [
+      "@lola: Oh, gising ka na. Kumain ka na ba?",
+      "@lola: May sinangag pa sa mesa. You always skip breakfast when you come home.",
+      "@lola: Anak, bili ka muna ng suka kay Cora. Yung maliit lang. Sabihin mo ilista muna."
+    ],
+    "lola_errand_wait": ["@lola: Suka, anak. Kay Cora. Diyan lang, lampas ng court."],
+    "lola_thanks": [
+      "@lola: Ayan. Ilagay mo na lang sa kusina mamaya.",
+      "@lola: One more thing, anak. I can't find my old tin box. The biscuit one, with the dancing ladies on the lid.",
+      "@lola: Maybe someone in the neighborhood saw it. Ask around, ha?",
+      "@lola: And walk slowly. You walk like someone is chasing you."
+    ],
+    "lola_waiting": ["@lola: Hindi mo pa nakikita? Sige, take your time.", "@lola: Just be home before dark."],
+    "wake_arrive": [
+      "Nakasindi na ang ilaw-poste sa tapat ng bahay.",
+      "Walang nakaupo sa bangko.",
+      "Nagpahiram ng upuan ang bawat bahay sa kalye. Nandito silang lahat, iisa ang direksyong nakaharap.",
+      "@cora: Ay, nandito ka na. Saan ka ba galing? Maghapon ka naming hinahanap.",
+      "@tonyo: Hayaan mo na. Naglakad-lakad lang 'yan.",
+      "@tonyo: Nakikiramay kami, anak.",
+      "Wala nang nagsalita. May nag-abot sa'yo ng isang tasang kape."
+    ],
+    "door_final": [
+      "Bukas ang pinto. Hindi ito kailanman ikinandado, at walang nagkandado ngayon.",
+      "Nasa sala siya, kung saan dating nakalagay ang magagandang upuan.",
+      "Parang ipinapahinga lang niya ang mga mata niya, gaya ng dati pagkatapos ng tanghalian.",
+      "Binuksan mo ulit ang lata. Sa ilalim ng mga teks, nakadikit sa loob ng takip, may isa pang papel.",
+      "Hindi ito sulat-kamay mo."
+    ],
+    "door_all": ["Nilakad mo ang buong barangay ngayong araw. Nandoon ang lahat, kung saan niya sinabing naroon."],
+
+    "cora_first": ["@cora: Ay! Ikaw pala. Ang laki mo na. Kailan ka dumating?", "@cora: Hanggang Linggo ka lang daw? Sayang naman. Ang bilis."],
+    "cora_suka": ["@cora: Suka? Para sa... ay.", "@cora: Sige. Dalhin mo na. Huwag mo nang bayaran.", "Binalot niya ang bote sa diyaryo, mas maingat kaysa kailangan ng isang boteng suka."],
+    "cora_suka_wait": ["@cora: Sige na, iuwi mo na 'yan."],
+    "cora_favor": ["@cora: Since you're walking around anyway. Pakidala nga ito kay Mang Tonyo.", "Isang tubo ng pandikit at isang maliit na kahon ng pako.", "@cora: Alam na niya kung para saan."],
+    "cora_tin": ["@cora: Tin box? The biscuit one?", "@cora: Naku. You used to bring that here every afternoon. Rattling. Puro piso."],
+    "cora_photo": [
+      "@cora: Wait. I still have something.",
+      "Tinanggal niya ang isang litrato sa dingding sa likod ng mga garapon ng kendi. Naninilaw na ang teyp.",
+      "@cora: Sa'yo na. I don't know who took it. Not me, I was busy counting your coins.",
+      "Pindutin ang Q para tingnan ang litrato."
+    ],
+    "cora_after": ["@cora: Ice candy is five pesos now. Everything goes up, 'di ba?", "@cora: Except the roof. The roof is still the same roof."],
+
+    "tonyo_first": ["@tonyo: Hot today, no? Hindi na masyadong lumalabas ang mga bata dito.", "@tonyo: Used to be loud every afternoon."],
+    "tonyo_tin": [
+      "@tonyo: Your Lola's tin? I borrowed it once. For nails. I returned it! Promise.",
+      "@tonyo: Last time I saw that thing, you had it. You and that whole noisy gang, running to the court.",
+      "@tonyo: You'd play until the streetlights came on. Then all the lolas would start shouting names.",
+      "@tonyo: Quiet now. Mas gusto ko pa yung maingay."
+    ],
+    "tonyo_delivery": [
+      "@tonyo: Ah, ito na pala. Salamat. Kanina ko pa hinihintay.",
+      "@tonyo: Inaayos ko yung mga lumang upuan. Kailangan mamaya, marami.",
+      "@tonyo: Pakisabi nga kay Ma'am Linda, yung mga upuan ng eskwela, ako na ang kukuha. Siya na ang bahala sa susi."
+    ],
+    "tonyo_after": ["@tonyo: If you see your friends, tell them the ring is still bent. Nobody ever paid me to fix it."],
+
+    "linda_first": ["@linda: Yes? The office is closed na... Ay. Ikaw ba 'yan?", "@linda: Grade four. Back row. Always looking at the clock."],
+    "linda_tin": ["@linda: A tin box? Hay. I confiscated that from you once. You cried, so I gave it back.", "@linda: Go in, look around. Walang tao. The flagpole is the same one."],
+    "linda_message": [
+      "@linda: Ang mga upuan? Oo, sige. Sabihin mo kunin na niya bago mag-alas-singko.",
+      "@linda: Ikaw pa ang nautusan. Ikaw pa talaga. ...Sige.",
+      "@linda: Pakidaan mo na rin ito kay Mila sa carinderia. Listahan lang. Para mamayang gabi."
+    ],
+    "linda_after": ["@linda: They all come back taller and quieter. I never get used to it."],
+
+    "court": ["Medyo baluktot ang ring. Wala na ang net.", "Isang bata, mag-isang nagsu-shoot. Dati, sampu kayong nag-aagawan para lang makatira."],
+    "baller": ["@baller: Kuya, shoot po kayo?", "Ipinasa niya sa'yo ang bola. Sumablay ka. Magalang siya tungkol dito.", "@baller: Wala na po kasing ibang naglalaro. Nasa bahay lahat."],
+    "nena": ["@nena: Ay, ikaw na ba 'yan? Hindi kita nakilala. Ang payat mo dati.", "@nena: Sige, mamamalengke pa ako. Kumusta mo ako sa Lola mo."],
+    "jun": ["@jun: Uy. Balita?", "Nakalampas na siya sa'yo. Lahat dito, naglalakad na parang may hinahabol."],
+    "liza": ["@liza: Uy! Kailan ka pa dumating? Bisita ka sa bahay, ha.", "Sinabi niya ito gaya ng pagsasabi ng mga taong alam nang hindi ka pupunta."],
+    "dog": ["Isang asong-kalye. Napagpasyahan nitong hindi ka interesante, tapos nagbago ang isip."],
+    "cat": ["Ang pusa ni Mang Tonyo. Naabutan na nito ang dalawang bisikleta at isang karaoke."],
+    "court_after": ["Medyo baluktot ang ring. Wala na ang net.", "Hindi pala ito ganoon kataas."],
+    "court_bench": ["May mga pangalang inukit sa kahoy. Nandoon ang sa'yo.", "Mali ang spelling mo."],
+
+    "flagpole": ["Isang flagpole. Tumatapik dito ang lubid tuwing umiihip ang hangin."],
+    "flagpole_after": ["Bago na ang pintura. Tumatapik pa rin ang lubid.", "Halos maabot mo na ang tuktok kung tatalon ka."],
+
+    "tree": ["Isang lumang puno sa bakanteng lote. Sira na ang bakod mula pa noong naaalala mo.", "May kung ano rito. Hindi mo pa matukoy."],
+    "tree_dig": ["Malambot ang lupa sa pagitan ng mga ugat.", "Naghukay ka gamit ang mga kamay mo, gaya ng dati."],
+    "tree_found": [
+      "Metal. Isang takip na may mga babaeng sumasayaw, halos kalawang na.",
+      "Sa loob: isang holen, tatlong teks na magkakadikit, at isang nakatiklop na papel.",
+      "Pindutin ang R para basahin ang sulat."
+    ],
+    "tree_after": ["Isang butas sa pagitan ng mga ugat. Mas maliit kaysa inaasahan mo."],
+
+    "realize": [
+      "Inilabas mo ulit ang litrato.",
+      "Ang tindahan. Ang court. Lahat nakasingkit sa araw.",
+      "May isa pang lugar. Naaalala mo ang lupa sa ilalim ng mga kuko mo. Naaalala mo ang isang puno."
+    ],
+
+    "creek": ["Ang sapa. Mas mababa kaysa naaalala mo, o tumaas lang ang pampang."],
+    "creek_after": ["Dumadaloy ang tubig kung saan ito laging dumadaloy.", "Mukhang hindi ito nagmamadali."],
+
+    "kid": ["@kid: Kuya, may load ka? Pa-hotspot naman.", "Hindi siya tumitingala mula sa cellphone."],
+    "vendor": [
+      "@vendor: Fishball, kikiam, kwek-kwek. Tusok lang.",
+      "@vendor: Dati, ubos na 'to by four o'clock. School lets out, pila agad.",
+      "@vendor: Ngayon..."
+    ],
+    "pisonet": [
+      "PISONET. P1 = 5 MINS. Sa ilalim, isang sulat-kamay na karatula: BAWAL SUMIGAW. BAWAL MAG-TRASH TALK.",
+      "Patay ang mga screen. Sa bintana: apat na monitor at isang electric fan."
+    ],
+    "fountain": ["Ilang taon nang hindi umaandar ang fountain.", "May naglilinis pa rin ng mga barya rito."],
+    "fountain_after": ["Walang tubig. May ilang barya pa rin. May humihiling pa rin dito."],
+    "pisonet_after": ["Apat na patay na monitor.", "Kaya mo nang bayaran lahat ngayon, kahit gaano katagal."],
+    "lola_bench_after": ["Abot na ng mga paa mo ang lupa. Matagal na."],
+    "chapel": ["Ang kapilya. Bukas ang pinto, gaya ng dati."],
+    "chapel_after": ["Bagong barnis ang mga upuan. Lumalangitngit pa rin sa parehong lugar."],
+    "market": ["Mga kaing ng kalamansi at sitaw. May radyong nakabukas, mahina."],
+    "market_after": ["Kaya mo nang buhatin ang bayong. Wala namang nag-uutos."],
+    "bakery": ["PANADERIA. Hamog ang salamin mula sa loob."],
+    "bakery_after": ["Lumiit na raw ang pandesal. Sabi ng lahat.", "Baka lumaki lang ang mga kamay mo."],
+    "carinderia": ["Isang bangko sa labas ng carinderia, kinintab ng apatnapung taon ng paghihintay ng kanin."],
+    "rosa": ["@rosa: Sitaw, talong, kalamansi! Suki, bili na!", "@rosa: Ay. Ikaw yung batang nawala dito dati. Umiyak ang Lola mo, alam mo ba?"],
+    "karding": ["@karding: Sariwa 'yan, kaninang umaga lang.", "@karding: Konti na lang ang namimili. Sa mall na silang lahat."],
+    "mila": ["@mila: Kain! May adobo, may ginisang munggo. Biyernes kasi.", "@mila: Lista ko pa rin ang utang ng tatay mo. Biro lang. Kain na."],
+    "mila_list": [
+      "@mila: Patingin. ...Pancit, puto, kape. Maraming kape.",
+      "@mila: Kaya 'yan. Sabihin mo sa... sige, ako na ang bahala.",
+      "@mila: Yung tinapay, kay Berto. Daanan mo. Sabihin mo para sa inyo."
+    ],
+    "mila_after": ["@mila: Kumain ka muna bago ka umalis. Hindi pwedeng walang laman ang tiyan mo ngayon."],
+    "berto_bread": [
+      "@berto: Para sa inyo? Oo, nakatabi na.",
+      "@berto: Ako na ang magdadala mamaya, mabigat. Huwag ka nang magbayad.",
+      "@berto: Suki ko ang Lola mo, tatlumpung taon. Alas-kuwatro lagi. Nauuna pa sa akin."
+    ],
+    "berto_after": ["@berto: Mamaya na tayo mag-usap. Nandoon naman ako."],
+    "berto": ["@berto: Pandesal? Mamayang alas-kuwatro pa ang bagong luto.", "@berto: Alas-kuwatro ng umaga. Hindi nagbago 'yon. Yun lang yata ang hindi."],
+    "lola_bench": ["Isang kahoy na bangko. Mas gasgas ang kanan kaysa sa kaliwa."],
+    "tires": ["Mga gulong ni Mang Tonyo. VULCANIZING ang nakapinta sa pader, sa tatlong magkakaibang sulat-kamay."],
+    "car": ["Isang kotse, nakaparada kung saan ka dating gumuguhit ng piko gamit ang tisa."],
+    "home_door": ["Ang pinto ni Lola. Hindi ito kailanman ikinakandado, hanggang ngayon."]
+  }
+}

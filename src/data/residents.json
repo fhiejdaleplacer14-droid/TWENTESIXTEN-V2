@@ -1,0 +1,13 @@
+{
+  "people": {
+    "nena": { "door": "nena", "speed": 40, "needs": { "errand": 1.6, "social": 1.3, "fun": 0.4 } },
+    "jun": { "door": "pisonet", "speed": 54, "needs": { "hunger": 1.5, "fun": 1.4, "calm": 0.3 } },
+    "liza": { "exit": 24, "speed": 47, "needs": { "social": 1.7, "errand": 1.2 } },
+    "ben": { "exit": 27, "speed": 38, "needs": { "rest": 1.7, "calm": 1.4, "errand": 0.6 } },
+    "baby": { "exit": 25, "speed": 44, "needs": { "errand": 1.5, "hunger": 1.2, "social": 1.2 } },
+    "rudy": { "exit": 26, "speed": 50, "needs": { "hunger": 1.6, "rest": 1.2, "social": 0.8 } },
+    "ising": { "exit": 24, "speed": 30, "needs": { "calm": 1.8, "rest": 1.5, "errand": 0.5 } },
+    "bong": { "exit": 25, "speed": 58, "needs": { "fun": 1.8, "hunger": 1.3, "calm": 0.3 } },
+    "jenjen": { "door": "nena", "kid": true, "speed": 62, "needs": { "fun": 2.2, "hunger": 1.2, "rest": 0.3, "calm": 0.3 } }
+  }
+}

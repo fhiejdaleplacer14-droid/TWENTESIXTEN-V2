@@ -1,0 +1,67 @@
+{
+  "_how": "Traditional Filipino folk songs (no one owns these tunes), played by the game's own synthesizer. Notes are scale numbers like KalimbaTabs: 1-7 = do re mi fa sol la ti, ' = an octave up, , = an octave down, 0 = a rest. Each note is one beat; every - adds a beat, _ halves it, . makes it half again as long. `do` is the pitch of 1 in Hz; `chords` (optional) is one root per line, held under it. Written from memory: if a line sounds wrong, paste the numbers from kalimbatabs.net or flutenotes.ph over it.",
+  "bahayKubo": {
+    "title": "Bahay Kubo",
+    "do": 261.63,
+    "bpm": 112,
+    "lines": [
+      "5, 1 1 1 2 3 2 1-",
+      "3 3 4 5 5 4 3 2-",
+      "2 2 3 4 4 3 2 1-",
+      "1 1 2 3 3 2 1 7,-",
+      "5 5 5 6 5 4 3-",
+      "3 3 3 4 3 2 1-",
+      "5 5 5 6 5 4 3 2",
+      "2 3 4 3 2 7, 1--"
+    ],
+    "chords": [1, 5, 5, 1, 1, 4, 5, 1]
+  },
+  "leron": {
+    "title": "Leron, Leron Sinta",
+    "do": 261.63,
+    "bpm": 132,
+    "lines": [
+      "5 5 4_ 3_ 4 5-",
+      "6 6 5_ 4_ 3 2-",
+      "5 5 4_ 3_ 4 5-",
+      "6 6 5_ 4_ 3 2-",
+      "2 2 3_ 4_ 5 6-",
+      "6 5 4_ 3_ 2 3-",
+      "2 2 3_ 4_ 5 6-",
+      "6 5 4_ 3_ 2 1-"
+    ],
+    "chords": [1, 5, 1, 5, 5, 1, 5, 1]
+  },
+  "dandansoy": {
+    "title": "Dandansoy",
+    "do": 261.63,
+    "bpm": 84,
+    "lines": [
+      "3 3 3 6- 5",
+      "4 3 2 3--",
+      "3 4 5 6- 5",
+      "4 3 2 1--",
+      "1 2 3 4- 3",
+      "2 1 7, 1--",
+      "3 3 2 1- 7,",
+      "6, 7, 1 6,--"
+    ],
+    "chords": [6, 3, 4, 1, 4, 3, 6, 6]
+  },
+  "ili": {
+    "title": "Ili-Ili, Tulog Anay",
+    "do": 349.23,
+    "bpm": 66,
+    "lines": [
+      "3- 3 2 1 7,",
+      "6,-- 0 0 0",
+      "1- 1 2 3 2",
+      "3-- 0 0 0",
+      "3- 4 5 4 3",
+      "2- 1 7, 1 2",
+      "3- 2 1 7, 7,",
+      "6,-----"
+    ],
+    "chords": [6, 6, 4, 3, 4, 3, 7, 6]
+  }
+}

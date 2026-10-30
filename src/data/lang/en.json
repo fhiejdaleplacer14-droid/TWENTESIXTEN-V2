@@ -1,0 +1,471 @@
+{
+  "names": {
+    "lola": "Lola",
+    "cora": "Ate Cora",
+    "tonyo": "Mang Tonyo",
+    "linda": "Ma'am Linda",
+    "mila": "Ate Mila",
+    "berto": "Kuya Berto",
+    "rosa": "Aling Rosa",
+    "karding": "Mang Karding",
+    "vendor": "Manong",
+    "kid": "Kid",
+    "baller": "Kid",
+    "nena": "Aling Nena",
+    "jun": "Kuya Jun",
+    "liza": "Ate Liza",
+    "ben": "Mang Ben",
+    "baby": "Tita Baby",
+    "rudy": "Manong Rudy",
+    "ising": "Lolo Ising",
+    "bong": "Bong",
+    "jenjen": "Jenjen"
+  },
+
+  "ui": {
+    "update": { "ready": "A new version is ready.", "now": "Update", "later": "Later" },
+    "menu": { "start": "Start", "continue": "Continue", "newGame": "New game", "controls": "Controls", "settings": "Settings", "credits": "Credits" },
+    "settings": {
+      "volume": "Volume",
+      "textSpeed": "Text speed",
+      "effects": "Effects",
+      "fullscreen": "Fullscreen",
+      "language": "Language",
+      "speeds": ["Slow", "Normal", "Fast"],
+      "effectLevels": ["Low", "Medium", "High"],
+      "on": "On",
+      "off": "Off"
+    },
+    "hints": {
+      "keys": { "main": "↑ ↓  choose        Enter  select", "settings": "↑ ↓  choose        ← →  change        Esc  back", "other": "Esc  back", "language": "↑ ↓  choose        Enter  select" },
+      "touch": { "main": "tap to choose", "settings": "tap a setting to change it", "other": "tap the menu to go back", "language": "tap to choose" }
+    },
+    "controls": {
+      "walk": "Walk (arrow keys work too)",
+      "run": "Run (knocks things over)",
+      "talk": "Talk, look, continue",
+      "photo": "Look at the photograph",
+      "letter": "Read the letter",
+      "gamepadLabel": "Gamepad",
+      "gamepad": "stick walk · RB run · A talk · X photo · Y letter",
+      "touchLabel": "Touch",
+      "touch": "drag left to walk · tap right to talk"
+    },
+    "credits": ["Art", "  Kenney  (kenney.nl)  CC0", "  Roguelike Modern City, RPG Urban Pack", "", "Font", "  Pixelify Sans  SIL OFL 1.1", "", "Engine", "  Phaser, Three.js", "", "Sound", "  made in the browser, no samples", "", "Music", "  Filipino folk songs (traditional):", "  Bahay Kubo, Leron Leron Sinta,", "  Dandansoy, Ili-Ili Tulog Anay"],
+    "hud": {
+      "errand": "errand   {text}",
+      "memories": "memories  {n} / {total}",
+      "photo": "Q  photograph",
+      "letter": "R  letter",
+      "helpKeys": "WASD / arrows to walk     Shift to run     E to talk and look",
+      "helpTouch": "Drag on the left to walk     Tap E to talk and look",
+      "putAway": "Q to put away",
+      "foldAgain": "R to fold it again",
+      "foldIt": "E to fold it"
+    },
+    "pickLanguage": "Language · Wika · Pinulongan"
+  },
+
+  "signs": {
+    "school": "ELEMENTARY SCHOOL",
+    "market": "PALENGKE",
+    "store": "SARI-SARI",
+    "pisonet": "PISONET",
+    "carinderia": "CARINDERIA",
+    "bakery": "PANADERIA",
+    "toda": "TODA",
+    "noPee": "BAWAL UMIHI DITO",
+    "noLoitering": "BAWAL TUMAMBAY",
+    "arch": "WELCOME TO PUROK 3"
+  },
+
+  "emotes": {
+    "thoughts": { "hunger": "hungry...", "errand": "errands", "rest": "tired", "social": "gossip!", "fun": "play!", "calm": "...", "home": "home time" },
+    "chatter": ["haha", "really?", "oh my", "right?", "..."],
+    "replies": ["haha", "right", "..."],
+    "honk": "beep beep",
+    "crow": "cock-a-doodle-doo!",
+    "hit": ["Hoy! Watch the road!", "Look where you're going!", "Ay, sorry boss!", "Are you blind?!"],
+    "tita": ["Naku! Are you okay, iho?", "Careful, anak!", "Ay! Your Lola would faint!"],
+    "kickBack": ["heads up!", "here!", "catch!"],
+    "dazed": "@_@"
+  },
+
+  "story": {
+    "objectives": {
+      "talk_lola": "Lola is outside. Talk to her.",
+      "buy_vinegar": "Buy vinegar at the sari-sari store.",
+      "bring_vinegar": "Bring the vinegar home to Lola.",
+      "ask_tin": "Ask around about Lola's tin box.",
+      "old_places": "Old places: the store, the court, the school.",
+      "more": "More is coming back. Walk the rest of the barangay.",
+      "tree": "There was a tree. Past the plaza.",
+      "bring_tin": "Bring the tin box home to Lola.",
+      "go_inside": "Go inside."
+    },
+    "errands": {
+      "glue": "Bring the glue and nails to Mang Tonyo.",
+      "linda": "Tell Ma'am Linda about the chairs.",
+      "mila": "Bring the list to Ate Mila at the carinderia.",
+      "berto": "Stop by Kuya Berto at the panaderia."
+    },
+    "photo": {
+      "before": "Four kids in front of the store, squinting. One is holding a biscuit tin like it matters. You don't remember who took this.",
+      "after": "Four kids in front of the store. At the bottom of the frame, the long shadow of someone holding a camera, wearing a duster."
+    },
+    "letter": [
+      "Dear me, when I'm big,",
+      "",
+      "It takes so long to be big. Lola says",
+      "be home before dark EVERY DAY.",
+      "When I am big I will come home",
+      "any time I want.",
+      "",
+      "Buy Lola a new tin. I took this one.",
+      "Sorry Lola.",
+      "",
+      "Don't forget the court.",
+      "Don't forget us.",
+      "",
+      "            - me, twentesixten"
+    ],
+    "lolaLetter": [
+      "Anak,",
+      "",
+      "I saw you bury this.",
+      "I dug it up the next day. I read it.",
+      "I put it back too. I didn't touch",
+      "the marble.",
+      "",
+      "Don't buy me a tin.",
+      "Just come home once in a while.",
+      "Even if it's not before dark.",
+      "",
+      "I'm just here, waiting.",
+      "",
+      "                        - Lola"
+    ],
+    "whisper": "\"Have you eaten?\"",
+    "closing": ["We spent our whole childhood in a hurry to grow up.", "It was the dumbest thing we ever wished for."],
+    "hits": "Times run over: {n}"
+  },
+
+  "residents": {
+    "going": {
+      "store": "Just going to the store. We're missing something in the kitchen.",
+      "market": "Heading to the market before the good vegetables run out.",
+      "cart": "Fishball first. I've been craving it all day.",
+      "carinderia": "I'll eat at Mila's first. I'm starving.",
+      "bakery": "Getting some bread. Probably still warm.",
+      "bench": "Just going to sit for a bit. My feet hurt.",
+      "court": "Going to watch at the court. Someone's still playing.",
+      "lot": "To the empty lot! There are chickens there!",
+      "creek": "Just to the creek. It's cooler there.",
+      "chapel": "Just stopping by the chapel.",
+      "hangout": "Just over there, to chat.",
+      "home": "Heading home. It's getting dark.",
+      "wake": "On my way to your house. Let's walk together."
+    },
+    "doing": {
+      "store": "Waiting for Cora. She takes forever with the change.",
+      "market": "Checking if it's fresh. You can't rush this.",
+      "cart": "Five more, Manong. The spicy sauce.",
+      "carinderia": "Adobo today. It's always adobo, but it's good.",
+      "bakery": "Just the smell fills me up.",
+      "bench": "Just resting. The breeze is nice here.",
+      "court": "Look at that kid. Here every day, all alone.",
+      "lot": "They're so fast! I can't catch them!",
+      "creek": "Just listening to the water.",
+      "chapel": "Just a moment. I'm praying.",
+      "hangout": "Just chatting. Nothing new, but it's nice.",
+      "home": "I'm going in.",
+      "wake": "We're right here. You're not alone."
+    },
+    "lines": {
+      "nena": [
+        "Oh, is that you? I didn't recognize you. You used to be so skinny.",
+        "I'll stop by your house later, okay? I'll bring ginataan.",
+        "You kids used to be the loud ones on this street. Now it's just me."
+      ],
+      "jun": [
+        "Hey. What's new? I own the pisonet now. Yeah, the one we used to hang out at.",
+        "Hardly anyone plays anymore. Everyone has a phone.",
+        "You still owe me five pesos. Joking. Not joking."
+      ],
+      "liza": [
+        "Hey! When did you get here? Come visit the house, okay?",
+        "Have you seen Ma'am Linda? She still asks about you.",
+        "Time goes so fast. Feels like yesterday you were crying on the court."
+      ],
+      "ben": [
+        "You're the grandchild from the house on the corner, right? You look like your father.",
+        "I'm the one who poured the cement on this road. Look, still in one piece.",
+        "Don't rush, hijo. Everything is right here."
+      ],
+      "baby": [
+        "Ay naku, you're so big now! Are you married yet?",
+        "No? Too bad. I have a niece. Very nice.",
+        "Fine, fine. Just eat. You're so thin."
+      ],
+      "rudy": [
+        "Just got off work. They're building something on the next corner.",
+        "Every empty lot here has a buyer now. Shame about the trees.",
+        "The old tree? Not yet. Nobody has the nerve."
+      ],
+      "ising": [
+        "I know you. You're the kid who always asked what time it was.",
+        "I'm not in a hurry anymore. Nothing left to chase.",
+        "I used to court your Lola. Don't tell anyone."
+      ],
+      "bong": [
+        "Kuya, they say you live in Manila now? Is it true nobody talks to their neighbors there?",
+        "I want to leave this place too. Everything is so slow.",
+        "...Is it nice there? Really?"
+      ],
+      "jenjen": [
+        "Kuya, how old are you? ...Wow, you're old.",
+        "When I grow up I'm going to be a pilot. Tomorrow, hopefully.",
+        "Lola Nena says I have to be home before dark. Every single time."
+      ]
+    }
+  },
+
+  "memories": {
+    "store": [
+      "The counter is above your head. You have to reach up and feel for it.",
+      "You pour the coins out of the tin. They roll everywhere.",
+      "\"One ice candy, please. The mango one.\"",
+      "\"You're one peso short.\"   \"...Can I owe you?\"",
+      "A hand comes down through the window with the ice candy anyway.",
+      "\"When I'm big I'll buy the whole store.\""
+    ],
+    "court": [
+      "The court goes on forever. The ring is higher than the roofs.",
+      "\"Last shot! Last shot before it gets dark!\"",
+      "\"When I'm big I'll dunk on all of you.\"",
+      "\"When I'm big I'm not even coming back here. I'm going to have a car.\"",
+      "Someone laughs. Somebody's lola is already calling.",
+      "The tin box sits by the post, where nobody will step on it."
+    ],
+    "school": [
+      "The line is long and the sun is already hot. Everyone is singing.",
+      "The pole goes all the way up to where the airplanes are.",
+      "\"Ma'am, how many more years until I'm done?\"",
+      "\"Eight, if you study.\"",
+      "Eight. You count it on your fingers and run out of patience first.",
+      "\"That's so long.\""
+    ],
+    "chapel": [
+      "It is still dark. Lola's hand is the only warm thing.",
+      "The candles are taller than you. Everyone is whispering the same words.",
+      "You fall asleep against her arm before the second song.",
+      "\"When I'm big, I'm never waking up this early again.\"",
+      "Afterwards there is bibingka, and that is the whole reason you came."
+    ],
+    "market": [
+      "Everything is at the height of your eyes: knees, baskets, the tails of fish.",
+      "\"Hold on to my skirt. Don't you let go.\"",
+      "You let go once, for one second, to look at the chicks dyed pink and green.",
+      "The whole market is strangers. Then her voice, saying your name the long way.",
+      "\"When I'm big, I'll carry the bayong.\""
+    ],
+    "bakery": [
+      "Four in the morning smells like bread.",
+      "Ten pesos in your fist, folded so small it's damp.",
+      "\"Ten pandesal, please. The hot ones.\"",
+      "You eat two on the way home and blame the bag.",
+      "\"When I'm big I'll eat pandesal until I'm full. Nobody will count.\""
+    ],
+    "fountain": [
+      "The fountain is on. It is on because it is fiesta.",
+      "There are banderitas from every roof to every other roof.",
+      "Someone's tito is singing. He is not good. Everyone claps.",
+      "You and the others throw one-peso coins in and wish for the same thing.",
+      "\"I hope we grow up already.\""
+    ],
+    "pisonet": [
+      "One peso. Five minutes. You have four pesos and a plan.",
+      "The chair is too high. Half the letters are rubbed off the keyboard.",
+      "\"Hey, extend me! I'll pay you back tomorrow!\"",
+      "Somebody's mother appears in the doorway holding one tsinelas.",
+      "\"When I'm big I'll have my own computer. And nobody will time me.\""
+    ],
+    "bench": [
+      "Your feet don't reach the ground from here.",
+      "Lola is picking stones out of the rice. You are supposed to be helping.",
+      "The streetlights come on one at a time, the far one first.",
+      "\"Lola, when will I be big?\"",
+      "\"Don't be in a hurry. Time isn't running away from you.\"",
+      "You didn't believe her."
+    ],
+    "tree": [
+      "The hole took all afternoon. Your hands are black.",
+      "The marble goes in. The teks. The letter, folded eight times.",
+      "\"Nobody opens it until I'm big. Promise.\"",
+      "\"How big?\"   \"...Big big.\"",
+      "You pat the dirt flat and jump on it, to be sure."
+    ],
+    "creek": [
+      "You were not allowed here.",
+      "The water is up to your chest, and brown, and perfect.",
+      "\"Nobody tells, okay!\"",
+      "Someone always told."
+    ]
+  },
+
+  "credits": {"starring": "STARRING", "and": "and", "you": "you, as her apo", "by": "A GAME BY", "footage": "Ending footage", "footageBy": "  kites at dusk, shared by the team", "thanks": "Thank you for playing.", "skip": "SPACE to skip"},
+  "games": {
+    "store": {"how": "The coins rolled everywhere. Pick them all up.", "status": "{n} / {total} coins · {s}", "won": "Every last coin, even the one by the step.", "lost": "Some rolled under the store and never came back."},
+    "school": {"how": "Sing along: press E as each note reaches the circle.", "status": "{n} / {total} notes", "won": "You sang every word, loudest in the line. Ma'am gave you a star on your hand.", "lost": "You mumbled the words you didn't know. So did everyone."},
+    "chapel": {"how": "Stay awake! Press E to open your eyes.", "status": "second song in {s}", "won": "You made it to the second song. You fell asleep during the third.", "lost": "You fell asleep against her arm before the second song."},
+    "bakery": {"how": "Catch the hot pandesal in the bag. Move left and right.", "status": "{n} / {need} pandesal", "won": "Ten, hot, and two more for the walk home.", "lost": "Some fell on the floor. The baker put extra in the bag anyway."},
+    "fountain": {"how": "E to choose the way, E again to throw. Two coins in the water.", "status": "{made} in · {thrown} of {total} coins", "in": "plink!", "out": "clink", "won": "Two coins in. You never said the wish out loud, so it still counts.", "lost": "Your coins hit the rim and rolled under the stage. You wished anyway."},
+    "pisonet": {"how": "Dodge the blocks until the money runs out. Move left and right.", "status": "peso {coin} of {total} · lives {lives}", "won": "All four pesos, and a new high score. Your initials, typed with the three letters that still worked.", "lost": "Game over on the second peso. You watched the others play the rest."},
+    "bench": {"how": "What do you say to her?", "won": "", "lost": "", "choices": [{"key": "big", "say": "\"Lola, when will I be big?\"", "reply": "\"Don't be in a hurry. Time isn't running away from you.\"", "after": "You didn't believe her."}, {"key": "stay", "say": "\"Lola, will you still be here when I'm big?\"", "reply": "\"Of course. Who else will make you eat?\"", "after": "You believed her."}, {"key": "help", "say": "(Say nothing. Pick out a stone.)", "reply": "She hums. You find another stone, then another.", "after": "It is the best part of the day and you don't know it yet."}]},
+    "court": {"how": "Press E when the marker is in the gold. Two out of three.", "score": "{made} in · {shot} of {total} shots", "yes": "swish!", "no": "clank", "won": "Two out of three. Nobody believed it, so you said it again all the way home.", "lost": "Nothing went in. Kuya said it was the wind. There was no wind."},
+    "market": {"how": "Find Lola (lavender, white hair). Walk into her. E to call her.", "time": "{s}", "shout": "Lola!", "answer": "Anak!", "found": "There you are!", "calling": "Anak! Anak!", "won": "You found her first. She held your hand so hard it hurt, and pretended she had not been scared.", "lost": "She found you. Her voice, saying your name the long way, and then her hand, so hard it hurt."},
+    "creek": {"how": "Get to the deep part. When Aling Ising looks up, hide behind a bush or the bench.", "tries": "chances left: {n}", "made": "Here!", "caught": "Hoy! I'm telling your Lola!", "won": "Past Aling Ising and her washing, into the deep part. She never even turned around.", "lost": "Aling Ising saw you, all three times. You went in anyway."}
+  },
+
+  "dialogue": {
+    "lola_intro": [
+      "@lola: Oh, you're up. Have you eaten?",
+      "@lola: There's still fried rice on the table. You always skip breakfast when you come home.",
+      "@lola: Anak, go buy some vinegar from Cora first. Just the small one. Tell her to put it on the list."
+    ],
+    "lola_errand_wait": ["@lola: Vinegar, anak. From Cora. Just over there, past the court."],
+    "lola_thanks": [
+      "@lola: There. Just put it in the kitchen later.",
+      "@lola: One more thing, anak. I can't find my old tin box. The biscuit one, with the dancing ladies on the lid.",
+      "@lola: Maybe someone in the neighborhood saw it. Ask around, ha?",
+      "@lola: And walk slowly. You walk like someone is chasing you."
+    ],
+    "lola_waiting": ["@lola: You haven't found it yet? That's all right, take your time.", "@lola: Just be home before dark."],
+    "wake_arrive": [
+      "The streetlight in front of the house is already on.",
+      "The bench is empty.",
+      "Every door on the street has lent its chairs. They are all here, facing the same way.",
+      "@cora: Oh, you're here. Where have you been? We've been looking for you all afternoon.",
+      "@tonyo: Leave it. The kid was just out walking.",
+      "@tonyo: Our condolences, anak.",
+      "Nobody says anything else. Somebody puts a cup of coffee in your hands."
+    ],
+    "door_final": [
+      "The door is open. It was never locked, and nobody has locked it now.",
+      "She is in the sala, where the good chairs used to be.",
+      "She looks like she is resting her eyes, the way she did after lunch.",
+      "You open the tin again. Under the teks, taped inside the lid, there is a second paper.",
+      "It is not your handwriting."
+    ],
+    "door_all": ["You walked the whole barangay today. Everything was where she said it would be."],
+
+    "cora_first": ["@cora: Oh! It's you. You've gotten so big. When did you get in?", "@cora: Only until Sunday, they said? What a shame. So short."],
+    "cora_suka": ["@cora: Vinegar? For the... oh.", "@cora: Go on. Take it. Don't pay for it.", "She wraps the bottle in newspaper more carefully than a bottle of vinegar needs."],
+    "cora_suka_wait": ["@cora: Go on, take that home."],
+    "cora_favor": ["@cora: Since you're walking around anyway. Bring this to Mang Tonyo for me.", "A tube of glue and a small box of nails.", "@cora: He knows what it's for."],
+    "cora_tin": ["@cora: Tin box? The biscuit one?", "@cora: Naku. You used to bring that here every afternoon. Rattling. All one-peso coins."],
+    "cora_photo": [
+      "@cora: Wait. I still have something.",
+      "She unpins a photograph from the wall behind the candy jars. The tape has gone yellow.",
+      "@cora: It's yours. I don't know who took it. Not me, I was busy counting your coins.",
+      "Press Q to look at the photograph."
+    ],
+    "cora_after": ["@cora: Ice candy is five pesos now. Everything goes up, right?", "@cora: Except the roof. The roof is still the same roof."],
+
+    "tonyo_first": ["@tonyo: Hot today, no? The kids don't come out here much anymore.", "@tonyo: Used to be loud every afternoon."],
+    "tonyo_tin": [
+      "@tonyo: Your Lola's tin? I borrowed it once. For nails. I returned it! Promise.",
+      "@tonyo: Last time I saw that thing, you had it. You and that whole noisy gang, running to the court.",
+      "@tonyo: You'd play until the streetlights came on. Then all the lolas would start shouting names.",
+      "@tonyo: Quiet now. I liked it better loud."
+    ],
+    "tonyo_delivery": [
+      "@tonyo: Ah, here it is. Thanks. I've been waiting for this.",
+      "@tonyo: I'm fixing up the old chairs. We'll need a lot of them tonight.",
+      "@tonyo: Tell Ma'am Linda for me: the school's chairs, I'll pick them up myself. She just needs to handle the key."
+    ],
+    "tonyo_after": ["@tonyo: If you see your friends, tell them the ring is still bent. Nobody ever paid me to fix it."],
+
+    "linda_first": ["@linda: Yes? The office is closed already... Oh. Is that you?", "@linda: Grade four. Back row. Always looking at the clock."],
+    "linda_tin": ["@linda: A tin box? Hay. I confiscated that from you once. You cried, so I gave it back.", "@linda: Go in, look around. Nobody's here. The flagpole is the same one."],
+    "linda_message": [
+      "@linda: The chairs? Yes, of course. Tell him to pick them up before five.",
+      "@linda: And they sent you, of all people. You, of all people. ...All right.",
+      "@linda: Drop this off with Mila at the carinderia too. Just a list. For tonight."
+    ],
+    "linda_after": ["@linda: They all come back taller and quieter. I never get used to it."],
+
+    "court": ["The ring is bent a little. The net is gone.", "One kid, shooting alone. It used to take ten of you just to get a turn."],
+    "baller": ["@baller: Kuya, want to shoot?", "He passes you the ball. You miss. He is polite about it.", "@baller: Nobody else plays anymore. Everyone's at home."],
+    "nena": ["@nena: Oh, is that you? I didn't recognize you. You used to be so skinny.", "@nena: Well, I'm off to the market. Say hi to your Lola for me."],
+    "jun": ["@jun: Hey. What's new?", "He is already past you. Everyone here walks like they have somewhere to be now."],
+    "liza": ["@liza: Hey! When did you get here? Come visit the house, okay?", "She says it the way people say it when they know you won't."],
+    "dog": ["A street dog. It decides you are not interesting, then changes its mind."],
+    "cat": ["Mang Tonyo's cat. It has outlived two bicycles and a karaoke machine."],
+    "court_after": ["The ring is bent a little. The net is gone.", "It is not very high."],
+    "court_bench": ["Names are scratched into the wood. Yours is there.", "You spelled it wrong."],
+
+    "flagpole": ["A flagpole. The rope taps against it when the wind moves."],
+    "flagpole_after": ["The paint has been redone. The rope still taps.", "You could almost reach the top if you jumped."],
+
+    "tree": ["An old tree in an empty lot. The fence has been broken for as long as you can remember.", "Something about it. You can't place it yet."],
+    "tree_dig": ["The ground between the roots is soft.", "You dig with your hands, like before."],
+    "tree_found": [
+      "Metal. A lid with dancing ladies on it, mostly rust now.",
+      "Inside there is a marble, three teks cards stuck together, and a folded paper.",
+      "Press R to read the letter."
+    ],
+    "tree_after": ["A hole between the roots. Smaller than you'd think."],
+
+    "realize": [
+      "You take the photograph out again.",
+      "The store. The court. Everyone squinting at the sun.",
+      "There was one more place. You remember dirt under your nails. You remember a tree."
+    ],
+
+    "creek": ["The creek. Lower than you remember, or the banks got higher."],
+    "creek_after": ["The water goes where it always went.", "It doesn't seem to be in a hurry."],
+
+    "kid": ["@kid: Kuya, do you have load? Let me use your hotspot.", "He doesn't look up from the phone."],
+    "vendor": [
+      "@vendor: Fishball, kikiam, kwek-kwek. Just stick and dip.",
+      "@vendor: Back then this was all gone by four o'clock. School lets out, instant line.",
+      "@vendor: Now..."
+    ],
+    "pisonet": [
+      "PISONET. P1 = 5 MINS. Under it, a handwritten sign: NO SHOUTING. NO TRASH TALK.",
+      "The screens are dark. Through the window: four monitors and one electric fan."
+    ],
+    "fountain": ["The fountain hasn't run in years.", "Someone still cleans the coins out of it."],
+    "fountain_after": ["No water. A few coins anyway. Someone still wishes here."],
+    "pisonet_after": ["Four dark monitors.", "You could pay for all of them now, for as long as you wanted."],
+    "lola_bench_after": ["Your feet reach the ground now. They have for a long time."],
+    "chapel": ["The chapel. The door is open, the way it always is."],
+    "chapel_after": ["The pews have been varnished. They still creak in the same place."],
+    "market": ["Crates of calamansi and string beans. Somebody's radio is on, low."],
+    "market_after": ["You could carry the bayong now. Nobody has asked."],
+    "bakery": ["PANADERIA. The glass case is fogged from the inside."],
+    "bakery_after": ["Pandesal is smaller now. Everyone says so.", "Maybe your hands got bigger."],
+    "carinderia": ["A bench outside the carinderia, polished by forty years of waiting for rice."],
+    "rosa": ["@rosa: String beans, eggplant, calamansi! Suki, come buy!", "@rosa: Oh. You're the kid who got lost here once. Your Lola cried, you know that?"],
+    "karding": ["@karding: That's fresh, picked just this morning.", "@karding: Hardly anyone shops here anymore. They're all at the mall."],
+    "mila": ["@mila: Eat! There's adobo, there's mung bean stew. It's Friday.", "@mila: I still have your father's tab written down. Joking. Eat."],
+    "mila_list": [
+      "@mila: Let me see. ...Pancit, puto, coffee. Lots of coffee.",
+      "@mila: We can do that. Tell... never mind, I'll take care of it.",
+      "@mila: The bread, that's Berto. Stop by. Tell him it's for your house."
+    ],
+    "mila_after": ["@mila: Eat something before you go. You can't have an empty stomach today."],
+    "berto_bread": [
+      "@berto: For your house? Yes, it's set aside.",
+      "@berto: I'll bring it over later myself, it's heavy. Don't pay.",
+      "@berto: Your Lola's been my suki for thirty years. Four o'clock, every time. Got here before I did."
+    ],
+    "berto_after": ["@berto: We'll talk later. I'll be there."],
+    "berto": ["@berto: Pandesal? The fresh batch isn't until four.", "@berto: Four in the morning. That hasn't changed. Maybe the only thing that hasn't."],
+    "lola_bench": ["A wooden bench. The right side is more worn than the left."],
+    "tires": ["Mang Tonyo's tires. VULCANIZING is painted on the wall in three different handwritings."],
+    "car": ["A car, parked where you used to draw piko squares in chalk."],
+    "home_door": ["Lola's door. It was never locked, and it still isn't."]
+  }
+}

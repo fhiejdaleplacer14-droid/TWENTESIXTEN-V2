@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0e0b09" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="TWENTESIXTEN" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="icons/favicon.png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <title>TWENTESIXTEN</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #0e0b09; overflow: hidden; overscroll-behavior: none; }
+      body { touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+      #world { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+      #film { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 2s ease; pointer-events: none; background: #0e0b09; }
+      #vignette { position: fixed; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, rgba(20, 10, 5, 0) 58%, rgba(20, 10, 5, 0.5) 100%); }
+      #game { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+      canvas { image-rendering: pixelated; }
+      #credits { --u: min(calc(100vw / 960), calc(100vh / 540)); position: fixed; inset: 0; overflow: hidden; pointer-events: none; display: none; background: rgba(11, 7, 5, 0); transition: background 2.5s ease; color: #f3e7cf; font-family: "Pixelify Sans", monospace; text-align: center; text-shadow: 0 calc(2 * var(--u)) 0 #1a100a, 0 0 calc(6 * var(--u)) #1a100a; }
+      #credits.on { background: rgba(11, 7, 5, 0.4); }
+      #credits .roll { position: absolute; left: 0; right: 0; top: 100%; }
+      #credits .title { font-family: Georgia, "Times New Roman", serif; font-size: calc(56 * var(--u)); letter-spacing: calc(4 * var(--u)); color: #f3d9a4; text-shadow: none; }
+      #credits .head { font-size: calc(15 * var(--u)); font-weight: 700; letter-spacing: calc(4 * var(--u)); color: #f3d9a4; margin-top: calc(26 * var(--u)); }
+      #credits .line { font-size: calc(16 * var(--u)); margin-top: calc(4 * var(--u)); }
+      #credits .gap { height: calc(150 * var(--u)); }
+      #credits .cast { display: flex; align-items: center; justify-content: center; gap: calc(14 * var(--u)); font-size: calc(22 * var(--u)); height: calc(58 * var(--u)); }
+      #credits .cast img { width: calc(45 * var(--u)); image-rendering: pixelated; }
+      #credits .team { display: flex; justify-content: center; gap: calc(40 * var(--u)); margin-top: calc(30 * var(--u)); }
+      #credits .member { display: flex; flex-direction: column; align-items: center; }
+      #credits .sticker { width: calc(186 * var(--u)); animation: wiggle 2.6s ease-in-out infinite alternate; }
+      #credits .name { margin-top: calc(-10 * var(--u)); padding: calc(4 * var(--u)) calc(9 * var(--u)); background: #f3d9a4; color: #17110d; font-weight: 700; font-size: calc(17 * var(--u)); text-shadow: none; box-shadow: 0 calc(3 * var(--u)) calc(6 * var(--u)) rgba(0, 0, 0, 0.4); }
+      #credits .card { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); font-family: Georgia, "Times New Roman", serif; font-size: calc(30 * var(--u)); color: #f3d9a4; opacity: 0; transition: opacity 2s ease; text-shadow: none; }
+      #credits .skip { position: absolute; right: calc(24 * var(--u)); bottom: calc(18 * var(--u)); font-size: calc(12 * var(--u)); color: #a8896a; text-shadow: none; }
+      #update { position: fixed; z-index: 10; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translateX(-50%); box-sizing: border-box; width: max-content; max-width: calc(100vw - 32px); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px; padding: 10px 14px; background: #17110d; border: 1px solid #a8896a; color: #f3e7cf; font: 16px "Pixelify Sans", monospace; touch-action: manipulation; }
+      #update button { min-height: 40px; padding: 0 14px; border: 1px solid #a8896a; background: none; color: #f3e7cf; font: inherit; cursor: pointer; }
+      #update button.now { background: #f3d9a4; border-color: #f3d9a4; color: #17110d; font-weight: 700; }
+      #update button:disabled { opacity: 0.5; cursor: default; }
+      @keyframes wiggle { from { transform: rotate(var(--tilt)); } to { transform: rotate(calc(var(--tilt) + 2.5deg)); } }
+    </style>
+  </head>
+  <body>
+    <canvas id="world"></canvas>
+    <video id="film" muted playsinline loop preload="none"></video>
+    <div id="vignette"></div>
+    <div id="game"></div>
+    <div id="credits"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

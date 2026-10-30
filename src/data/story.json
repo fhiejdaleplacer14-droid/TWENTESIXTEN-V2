@@ -1,0 +1,141 @@
+{
+  "start": { "objective": "talk_lola" },
+
+  "rules": {
+    "lola": [
+      { "if": ["asked"], "steps": [{ "say": "lola_waiting" }] },
+      { "if": ["suka"], "steps": [{ "say": "lola_thanks" }], "set": ["asked"], "objective": "ask_tin" },
+      { "if": ["errand"], "steps": [{ "say": "lola_errand_wait" }] },
+      { "steps": [{ "say": "lola_intro" }], "set": ["errand"], "objective": "buy_vinegar" }
+    ],
+    "cora": [
+      { "if": ["m_store"], "steps": [{ "say": "cora_after" }] },
+      {
+        "if": ["asked"],
+        "steps": [{ "say": "cora_tin" }, { "memory": "store" }, { "say": "cora_photo" }, { "say": "cora_favor" }],
+        "set": ["m_store", "d_tonyo"],
+        "give": "photo",
+        "errand": "glue"
+      },
+      { "if": ["suka"], "steps": [{ "say": "cora_suka_wait" }] },
+      { "if": ["errand"], "steps": [{ "say": "cora_suka" }], "set": ["suka"], "objective": "bring_vinegar" },
+      { "steps": [{ "say": "cora_first" }] }
+    ],
+    "tonyo": [
+      { "if": ["t_done"], "steps": [{ "say": "tonyo_after" }] },
+      { "if": ["d_tonyo"], "steps": [{ "say": "tonyo_tin" }, { "say": "tonyo_delivery" }], "set": ["t_done", "msg_linda"], "errand": "linda" },
+      { "if": ["asked"], "steps": [{ "say": "tonyo_tin" }] },
+      { "steps": [{ "say": "tonyo_first" }] }
+    ],
+    "linda": [
+      { "if": ["l_done"], "steps": [{ "say": "linda_after" }] },
+      { "if": ["msg_linda"], "steps": [{ "say": "linda_message" }], "set": ["l_done", "list_mila"], "errand": "mila" },
+      { "if": ["asked"], "steps": [{ "say": "linda_tin" }] },
+      { "steps": [{ "say": "linda_first" }] }
+    ],
+    "mila": [
+      { "if": ["mila_done"], "steps": [{ "say": "mila_after" }] },
+      { "if": ["list_mila"], "steps": [{ "say": "mila_list" }], "set": ["mila_done", "bread"], "errand": "berto" },
+      { "steps": [{ "say": "mila" }] }
+    ],
+    "berto": [
+      { "if": ["bread_done"], "steps": [{ "say": "berto_after" }] },
+      { "if": ["bread"], "steps": [{ "say": "berto_bread" }], "set": ["bread_done"], "errand": "" },
+      { "steps": [{ "say": "berto" }] }
+    ],
+    "court": [
+      { "if": ["m_court"], "steps": [{ "say": "court_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "court" }], "set": ["m_court"] },
+      { "steps": [{ "say": "court" }] }
+    ],
+    "flagpole": [
+      { "if": ["m_school"], "steps": [{ "say": "flagpole_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "school" }], "set": ["m_school"] },
+      { "steps": [{ "say": "flagpole" }] }
+    ],
+    "tree": [
+      { "if": ["tin"], "steps": [{ "say": "tree_after" }] },
+      {
+        "if": ["ready"],
+        "steps": [{ "say": "tree_dig" }, { "memory": "tree" }, { "say": "tree_found" }],
+        "set": ["tin"],
+        "give": "letter",
+        "phase": "sunset",
+        "event": "setWake",
+        "objective": "bring_tin"
+      },
+      { "steps": [{ "say": "tree" }] }
+    ],
+    "home_arrive": [
+      { "steps": [{ "say": "wake_arrive" }], "set": ["arrived"], "phase": "dusk", "objective": "go_inside" }
+    ],
+    "home_door": [
+      { "if": ["arrived", "all_memories"], "steps": [{ "say": "door_final" }, { "say": "door_all" }, { "read": "lolaLetter" }], "ending": true },
+      { "if": ["arrived"], "steps": [{ "say": "door_final" }, { "read": "lolaLetter" }], "ending": true },
+      { "steps": [{ "say": "home_door" }] }
+    ],
+    "chapel": [
+      { "if": ["m_chapel"], "steps": [{ "say": "chapel_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "chapel" }], "set": ["m_chapel"] },
+      { "steps": [{ "say": "chapel" }] }
+    ],
+    "market": [
+      { "if": ["m_market"], "steps": [{ "say": "market_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "market" }], "set": ["m_market"] },
+      { "steps": [{ "say": "market" }] }
+    ],
+    "bakery": [
+      { "if": ["m_bakery"], "steps": [{ "say": "bakery_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "bakery" }], "set": ["m_bakery"] },
+      { "steps": [{ "say": "bakery" }] }
+    ],
+    "fountain": [
+      { "if": ["m_fountain"], "steps": [{ "say": "fountain_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "fountain" }], "set": ["m_fountain"] },
+      { "steps": [{ "say": "fountain" }] }
+    ],
+    "pisonet": [
+      { "if": ["m_pisonet"], "steps": [{ "say": "pisonet_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "pisonet" }], "set": ["m_pisonet"] },
+      { "steps": [{ "say": "pisonet" }] }
+    ],
+    "lola_bench": [
+      { "if": ["m_bench"], "steps": [{ "say": "lola_bench_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "bench" }], "set": ["m_bench"] },
+      { "steps": [{ "say": "lola_bench" }] }
+    ],
+    "creek": [
+      { "if": ["m_creek"], "steps": [{ "say": "creek_after" }] },
+      { "if": ["asked"], "steps": [{ "memory": "creek" }], "set": ["m_creek"] },
+      { "steps": [{ "say": "creek" }] }
+    ]
+  },
+
+  "zones": [
+    { "id": "home_arrive", "if": ["tin", "!arrived"], "rect": [0, 25, 15, 6] }
+  ],
+
+  "memories": ["m_store", "m_court", "m_school", "m_creek", "m_chapel", "m_market", "m_bakery", "m_fountain", "m_pisonet", "m_bench"],
+
+  "derived": [
+    {
+      "if": ["m_store", "m_court", "m_school", "bread_done", "!ready"],
+      "count": 6,
+      "steps": [{ "say": "realize" }],
+      "set": ["ready"],
+      "phase": "golden",
+      "objective": "tree"
+    },
+    {
+      "if": ["m_store", "m_court", "m_school", "!hinted2", "!ready"],
+      "set": ["hinted2"],
+      "objective": "more"
+    },
+    {
+      "if": ["asked", "!hinted", "!hinted2", "!ready"],
+      "anyOf": ["m_store", "m_court", "m_school"],
+      "set": ["hinted"],
+      "objective": "old_places"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "names": {
+    "lola": "Lola",
+    "cora": "Nang Cora",
+    "tonyo": "Nong Tonyo",
+    "linda": "Ma'am Linda",
+    "mila": "Nang Mila",
+    "berto": "Kuya Berto",
+    "rosa": "Nang Rosa",
+    "karding": "Nong Karding",
+    "vendor": "Nong",
+    "kid": "Bata",
+    "baller": "Bata",
+    "nena": "Nang Nena",
+    "jun": "Kuya Jun",
+    "liza": "Ate Liza",
+    "ben": "Nong Ben",
+    "baby": "Tita Baby",
+    "rudy": "Manong Rudy",
+    "ising": "Lolo Ising",
+    "bong": "Bong",
+    "jenjen": "Jenjen"
+  },
+
+  "ui": {
+    "update": { "ready": "Naay bag-ong bersyon.", "now": "I-update", "later": "Unya ra" },
+    "menu": { "start": "Sugdi", "continue": "Padayon", "newGame": "Bag-ong dula", "controls": "Kontrol", "settings": "Settings", "credits": "Credits" },
+    "settings": {
+      "volume": "Kakusog sa tingog",
+      "textSpeed": "Kapaspas sa teksto",
+      "effects": "Effects",
+      "fullscreen": "Fullscreen",
+      "language": "Pinulongan",
+      "speeds": ["Hinay", "Normal", "Paspas"],
+      "effectLevels": ["Ubos", "Tunga", "Taas"],
+      "on": "On",
+      "off": "Off"
+    },
+    "hints": {
+      "keys": { "main": "↑ ↓  pili        Enter  pilia", "settings": "↑ ↓  pili        ← →  usba        Esc  balik", "other": "Esc  balik", "language": "↑ ↓  pili        Enter  pilia" },
+      "touch": { "main": "pindota aron mopili", "settings": "pindota ang setting aron usbon", "other": "pindota ang menu aron mobalik", "language": "pindota aron mopili" }
+    },
+    "controls": {
+      "walk": "Lakaw (pwede pud ang arrow keys)",
+      "run": "Dagan (matumba ang butang)",
+      "talk": "Istorya, tan-aw, padayon",
+      "photo": "Tan-awa ang litrato",
+      "letter": "Basaha ang sulat",
+      "gamepadLabel": "Gamepad",
+      "gamepad": "stick lakaw · RB dagan · A istorya · X litrato · Y sulat",
+      "touchLabel": "Touch",
+      "touch": "i-drag sa wala: lakaw · pindot sa tuo: istorya"
+    },
+    "credits": ["Arte", "  Kenney  (kenney.nl)  CC0", "  Roguelike Modern City, RPG Urban Pack", "", "Font", "  Pixelify Sans  SIL OFL 1.1", "", "Engine", "  Phaser, Three.js", "", "Tingog", "  gihimo sa browser, walay sample", "", "Musika", "  Mga awiting-bayan (tradisyonal):", "  Bahay Kubo, Leron Leron Sinta,", "  Dandansoy, Ili-Ili Tulog Anay"],
+    "hud": {
+      "errand": "hangyo   {text}",
+      "memories": "panumduman  {n} / {total}",
+      "photo": "Q  litrato",
+      "letter": "R  sulat",
+      "helpKeys": "WASD / arrows aron molakaw     Shift aron modagan     E aron makig-istorya ug motan-aw",
+      "helpTouch": "I-drag sa wala aron molakaw     Pindota ang E aron makig-istorya",
+      "putAway": "Q aron itago",
+      "foldAgain": "R aron ipilo pag-usab",
+      "foldIt": "E aron ipilo"
+    },
+    "pickLanguage": "Language · Wika · Pinulongan"
+  },
+
+  "signs": {
+    "school": "ELEMENTARY SCHOOL",
+    "market": "MERKADO",
+    "store": "SARI-SARI",
+    "pisonet": "PISONET",
+    "carinderia": "CARINDERIA",
+    "bakery": "PANADERIA",
+    "toda": "TODA",
+    "noPee": "BAWAL MANGIHI DIRI",
+    "noLoitering": "BAWAL TAMBAY DIRI",
+    "arch": "MAAYONG PAG-ABOT! PUROK 3"
+  },
+
+  "emotes": {
+    "thoughts": { "hunger": "gutom...", "errand": "naay paliton", "rest": "kapoy", "social": "chika!", "fun": "dula!", "calm": "...", "home": "uli na" },
+    "chatter": ["haha", "tinuod?", "ay sus", "mao gyud", "..."],
+    "replies": ["haha", "mao", "..."],
+    "honk": "beep beep",
+    "crow": "tiktilaok!",
+    "hit": ["Hoy! Tan-awa ang dalan!", "Buta ka?!", "Ay, sorry boss!", "Hala! Unsa man na?!"],
+    "tita": ["Ay! Okay ra ka, dong?", "Amping na, anak!", "Ay! Makuyapan imong Lola!"],
+    "kickBack": ["ayo!", "ania!", "sakpa!"],
+    "dazed": "@_@"
+  },
+
+  "story": {
+    "objectives": {
+      "talk_lola": "Naa si Lola sa gawas. Istoryaha siya.",
+      "buy_vinegar": "Palit og suka sa sari-sari store.",
+      "bring_vinegar": "Iuli ang suka kang Lola.",
+      "ask_tin": "Pangutana-pangutana bahin sa lata ni Lola.",
+      "old_places": "Mga daang lugar: ang tindahan, ang court, ang eskwelahan.",
+      "more": "Naa pay mobalik nga panumduman. Lakwa ang tibuok barangay.",
+      "tree": "Naay kahoy kaniadto. Lapas sa plaza.",
+      "bring_tin": "Iuli ang lata kang Lola.",
+      "go_inside": "Sulod na."
+    },
+    "errands": {
+      "glue": "Dad-a ang pandikit ug lansang kang Nong Tonyo.",
+      "linda": "Ingna si Ma'am Linda bahin sa mga lingkuranan.",
+      "mila": "Dad-a ang lista kang Nang Mila sa carinderia.",
+      "berto": "Agi kang Kuya Berto sa panaderia."
+    },
+    "photo": {
+      "before": "Upat ka bata atubangan sa tindahan, nagpiyong-piyong sa adlaw. Ang usa nagkupot og lata sa biskwit nga murag importante kaayo. Wala ka kahinumdom kinsay nagkuha ani.",
+      "after": "Upat ka bata atubangan sa tindahan. Sa ubos sa litrato, ang taas nga anino sa usa ka tawo nga nagkupot og kamera, nagsul-ob og duster."
+    },
+    "letter": [
+      "Dear me, inig dako na,",
+      "",
+      "Kadugay ba modako. Si Lola ingon",
+      "uli sa dili pa mongitngit PERMI.",
+      "Inig dako nako mouli ko",
+      "bisan unsang orasa.",
+      "",
+      "Paliti si Lola og bag-ong lata. Akong gikuha ni.",
+      "Sorry Lola.",
+      "",
+      "Ayaw kalimti ang court.",
+      "Ayaw mi kalimti.",
+      "",
+      "            - ako, twentesixten"
+    ],
+    "lolaLetter": [
+      "Anak,",
+      "",
+      "Nakita tika nga gilubong nimo ni.",
+      "Gikalot nako pagkaugma. Gibasa nako.",
+      "Gibalik ra pud nako. Wala nako hilabti",
+      "ang holen.",
+      "",
+      "Ayaw na ko paliti og lata.",
+      "Uli lang usahay.",
+      "Bisan dili na sa dili pa mongitngit.",
+      "",
+      "Naghulat lang ko diri.",
+      "",
+      "                        - Lola"
+    ],
+    "whisper": "\"Nikaon na ka?\"",
+    "closing": ["Gigahin nato ang tibuok pagkabata sa pagdali nga modako.", "Mao to ang pinakabuang nga atong gihangyo."],
+    "hits": "Naligsan: {n}"
+  },
+
+  "residents": {
+    "going": {
+      "store": "Sa tindahan lang ko. Naay kulang sa kusina.",
+      "market": "Padulong ko sa merkado sa dili pa mahurot ang nindot nga utanon.",
+      "cart": "Fishball sa usa. Kaganina pa ko gigutom ani.",
+      "carinderia": "Mokaon sa ko kang Mila. Gigutom na ko.",
+      "bakery": "Mopalit ko og pan. Init pa tingali.",
+      "bench": "Molingkod lang ko kadiyot. Sakit na akong tiil.",
+      "court": "Motan-aw ko sa court. Naa pa diay nagdula.",
+      "lot": "Sa bakanteng lote! Naay mga manok didto!",
+      "creek": "Sa sapa lang. Mas bugnaw didto.",
+      "chapel": "Moagi lang ko sa kapilya.",
+      "hangout": "Diha ra, makig-istorya.",
+      "home": "Mouli na ko. Mongitngit na.",
+      "wake": "Padulong na ko sa inyo. Duyog na ta."
+    },
+    "doing": {
+      "store": "Naghulat ko kang Cora. Kadugay niya mohatag og sukli.",
+      "market": "Gitan-aw nako kung presko. Dili ni pwede dalidalion.",
+      "cart": "Lima pa, Nong. Kadtong halang nga sawsawan.",
+      "carinderia": "Adobo karon. Permi man adobo, pero lami.",
+      "bakery": "Ang baho pa lang, busog na ko.",
+      "bench": "Nagpahulay lang. Lami ang hangin diri.",
+      "court": "Tan-awa na nga bata. Adlaw-adlaw diri, nag-inusara.",
+      "lot": "Kakusog nila modagan! Dili nako maapsan!",
+      "creek": "Naminaw lang ko sa tubig.",
+      "chapel": "Kadiyot lang. Nag-ampo ko.",
+      "hangout": "Nag-istorya-istorya lang mi. Walay bag-o, pero lingaw.",
+      "home": "Mosulod na ko.",
+      "wake": "Ania ra mi. Dili ka nag-inusara."
+    },
+    "lines": {
+      "nena": [
+        "Ay, ikaw na ba? Wala ko kaila nimo. Niwang kaayo ka kaniadto.",
+        "Moagi ko sa inyo unya, ha. Magdala ko og ginataan.",
+        "Kaniadto kamo ang saba niining dalana. Karon ako na lang."
+      ],
+      "jun": [
+        "Uy. Unsay balita? Ako na ang tag-iya sa pisonet. Oo, kadtong atong tambayan kaniadto.",
+        "Wala na kaayoy nagdula. Tanan naa nay cellphone.",
+        "Naa pa kay utang nako nga singko pesos. Joke lang. Dili joke."
+      ],
+      "liza": [
+        "Uy! Kanus-a ka niabot? Bisita sa balay, ha.",
+        "Nakita na nimo si Ma'am Linda? Gipangutana gihapon ka niya.",
+        "Kadali sa panahon. Murag gahapon lang, naghilak ka sa court."
+      ],
+      "ben": [
+        "Ikaw kadtong apo diha sa kanto, 'di ba? Kaamgid nimo imong papa.",
+        "Ako ang nagsemento ani nga dalan. Tan-awa, buo pa.",
+        "Ayaw pagdali, 'dong. Naa ra man ang tanan."
+      ],
+      "baby": [
+        "Ay sus, kadako na nimo! Minyo na ka?",
+        "Wala? Sayang. Naa koy pag-umangkon. Buotan.",
+        "Sige na lang. Basta kaon. Kaniwang nimo."
+      ],
+      "rudy": [
+        "Kahuman lang sa trabaho. Naay ginatukod sa pikas kanto.",
+        "Ang tanang bakanteng lote diri, naa nay mopalit. Sayang ang mga kahoy.",
+        "Ang daan nga kahoy? Wala pa. Wala pay maisog."
+      ],
+      "ising": [
+        "Kaila ko nimo. Ikaw kadtong bata nga permi mangutana unsa nang orasa.",
+        "Dili na ko magdali. Wala na koy ginagukod.",
+        "Ang imong Lola, akong gipangulitawohan kaniadto. Ayaw isulti."
+      ],
+      "bong": [
+        "Kuya, taga-Manila na daw ka? Tinuod ba nga walay makig-istorya sa silingan didto?",
+        "Gusto pud ko mobiya diri. Kahinay sa tanan.",
+        "...Nindot ba didto? Tinuod?"
+      ],
+      "jenjen": [
+        "Kuya, pila na imong edad? ...Tigulang na diay ka.",
+        "Inig dako nako, mahimo kong piloto. Ugma unta.",
+        "Ingon si Lola Nena, uli daw ko sa dili pa mongitngit. Permi na lang."
+      ]
+    }
+  },
+
+  "memories": {
+    "store": [
+      "Mas taas pa sa imong ulo ang counter. Kinahanglan nimo mokab-ot ug kapaon kini.",
+      "Gibubo nimo ang mga sensilyo gikan sa lata. Naligid bisan asa.",
+      "\"Usa ka ice candy, palihug. Kadtong mango.\"",
+      "\"Kulang og piso.\"   \"...Utang sa usa?\"",
+      "Naay kamot nga miabot gikan sa bintana, dala gihapon ang ice candy.",
+      "\"Inig dako nako, paliton nako ang tibuok tindahan.\""
+    ],
+    "court": [
+      "Walay katapusan ang court. Mas taas pa ang ring kaysa sa mga atop.",
+      "\"Last shot! Last shot sa dili pa mongitngit!\"",
+      "\"Inig dako nako, i-dunk tika tanan.\"",
+      "\"Inig dako nako, dili na gyud ko mobalik diri. Magsakyanan ko.\"",
+      "Naay mikatawa. Naay lola nga nanawag na.",
+      "Ang lata nahimutang tupad sa poste, diin walay makatunob."
+    ],
+    "school": [
+      "Taas ang linya ug init na ang adlaw. Nagkanta ang tanan.",
+      "Ang poste mosaka hangtod sa mga eroplano.",
+      "\"Ma'am, pila pa ka tuig sa dili pa ko mahuman?\"",
+      "\"Walo, kung magtuon ka.\"",
+      "Walo. Giihap nimo sa imong tudlo ug naunang nahurot imong pasensya.",
+      "\"Kadugay ba.\""
+    ],
+    "chapel": [
+      "Ngitngit pa. Ang kamot ni Lola ra ang init.",
+      "Mas taas pa nimo ang mga kandila. Usa ra ka pulong ang ginahunghong sa tanan.",
+      "Nakatulog ka sa iyang bukton sa dili pa ang ikaduhang kanta.",
+      "\"Inig dako nako, dili na gyud ko mobangon og ingon ani ka sayo.\"",
+      "Human, naay bibingka, ug mao ra gyud to ang rason nganong niuban ka."
+    ],
+    "market": [
+      "Ang tanan anaa sa gitas-on sa imong mata: mga tuhod, mga bukag, mga ikog sa isda.",
+      "\"Kupot sa akong saya. Ayaw gyud buhii.\"",
+      "Gibuhian nimo kausa, usa ka segundo lang, aron tan-awon ang mga piso sa manok nga gikolor og pink ug green.",
+      "Mga estranghero ang tibuok merkado. Unya ang iyang tingog, nanawag sa tibuok nimong ngalan.",
+      "\"Inig dako nako, ako na'y modala sa bayong.\""
+    ],
+    "bakery": [
+      "Humot og pan ang alas-kuwatro sa kadlawon.",
+      "Diyes pesos sa imong kumo, gipilo og gamay kaayo hangtod nabasa na.",
+      "\"Napulo ka pandesal, palihug. Kadtong init.\"",
+      "Nakakaon ka og duha pauli ug gibasol nimo ang supot.",
+      "\"Inig dako nako, mokaon ko og pandesal hangtod mabusog ko. Walay moihap.\""
+    ],
+    "fountain": [
+      "Nagdagan ang fountain. Nagdagan kay pista.",
+      "Naay banderitas gikan sa matag atop ngadto sa matag atop.",
+      "Nagkanta ang tito sa usa ka tawo. Dili siya maayo. Nagpalakpak ang tanan.",
+      "Naglabay mo og tag-piso nga sensilyo ug usa ra ang inyong gihangyo.",
+      "\"Unta modako na ta.\""
+    ],
+    "pisonet": [
+      "Usa ka piso. Lima ka minuto. Naa kay upat ka piso ug usa ka plano.",
+      "Taas kaayo ang lingkuranan. Napapas na ang katunga sa mga letra sa keyboard.",
+      "\"Uy, extend sa ko! Bayran tika ugma!\"",
+      "Mitungha sa pultahan ang mama sa usa ka bata, nagkupot og usa ka tsinelas.",
+      "\"Inig dako nako, naa koy kaugalingong computer. Ug walay mo-time nako.\""
+    ],
+    "bench": [
+      "Dili maabot sa imong tiil ang yuta gikan diri.",
+      "Nagpili si Lola og bato sa bugas. Kinahanglan unta motabang ka.",
+      "Usa-usa nga misiga ang mga suga sa poste, ang pinakalayo ang una.",
+      "\"Lola, kanus-a ko modako?\"",
+      "\"Ayaw pagdali. Dili man modagan ang panahon palayo nimo.\"",
+      "Wala ka mituo."
+    ],
+    "tree": [
+      "Tibuok hapon ang lungag. Itom na imong kamot.",
+      "Gisulod ang holen. Ang mga teks. Ang sulat, gipilo og walo ka higayon.",
+      "\"Walay moabli ani hangtod dako na ko. Promise.\"",
+      "\"Unsa kadako?\"   \"...Dako kaayo.\"",
+      "Gipatag nimo ang yuta ug gilukso-lukso pa, aron sigurado."
+    ],
+    "creek": [
+      "Gidili ka diri.",
+      "Hangtod dughan ang tubig, ug lubog, ug perpekto.",
+      "\"Walay mosumbong, ha!\"",
+      "Naa gyuy permi mosumbong."
+    ]
+  },
+
+  "credits": {"starring": "MGA BIDA", "and": "ug", "you": "ikaw, isip iyang apo", "by": "USA KA DULA NI", "footage": "Video sa kataposan", "footageBy": "  mga saranggola sa kilumkilom, gikan sa team", "thanks": "Salamat sa pagdula.", "skip": "SPACE aron laktawan"},
+  "games": {
+    "store": {"how": "Nagligid ang mga sinsilyo bisan asa. Pupuha tanan.", "status": "{n} / {total} sinsilyo · {s}", "won": "Bisan ang kataposang sinsilyo, bisan ang naa sa may hagdan.", "lost": "Naay nagligid ilalom sa tindahan ug wala na mibalik."},
+    "school": {"how": "Uban sa kanta: pislita ang E pag-abot sa nota sa lingin.", "status": "{n} / {total} nota", "won": "Gikanta nimo tanan, ikaw ang pinakakusog sa linya. Gihatagan ka ni Ma'am og star sa kamot.", "lost": "Gihunghong na lang nimo ang mga pulong nga wala nimo kahibalo. Ingon man ang tanan."},
+    "chapel": {"how": "Ayaw katulog! Pislita ang E aron mumata.", "status": "ikaduhang kanta sa {s}", "won": "Nakaabot ka sa ikaduhang kanta. Nakatulog ka sa ikatulo.", "lost": "Nakatulog ka sa iyang bukton sa wala pa ang ikaduhang kanta."},
+    "bakery": {"how": "Sakpa ang init nga pandesal sa supot. Lihok sa wala ug tuo.", "status": "{n} / {need} pandesal", "won": "Napulo, init pa, ug duha pa para sa dalan pauli.", "lost": "Naay nahulog sa salog. Gidugangan gihapon sa panadero ang supot."},
+    "fountain": {"how": "E aron mopili og direksyon, E pag-usab aron ilabay. Duha ka sinsilyo sa tubig.", "status": "{made} sulod · {thrown} sa {total} sinsilyo", "in": "plink!", "out": "kling", "won": "Duha ka sinsilyo ang misulod. Wala nimo gisulti ang pangandoy, mao nga mag-ihap gihapon.", "lost": "Naigo sa ngilit ang imong sinsilyo ug nagligid ilalom sa entablado. Nangandoy ka gihapon."},
+    "pisonet": {"how": "Likayi ang mga bloke hangtod mahurot ang kwarta. Lihok sa wala ug tuo.", "status": "piso {coin} sa {total} · kinabuhi {lives}", "won": "Upat ka piso, ug bag-ong high score. Imong initials, gi-type gamit ang tulo ka letra nga mogana pa.", "lost": "Game over sa ikaduhang piso. Nagtan-aw na lang ka sa uban."},
+    "bench": {"how": "Unsa may imong isulti niya?", "won": "", "lost": "", "choices": [{"key": "big", "say": "\"Lola, kanus-a man ko modako?\"", "reply": "\"Ayaw pagdali. Dili modagan ang panahon palayo nimo.\"", "after": "Wala ka mituo."}, {"key": "stay", "say": "\"Lola, naa pa ka dinhi inig dako nako?\"", "reply": "\"Siyempre. Kinsa pa may mopakaon nimo?\"", "after": "Mituo ka."}, {"key": "help", "say": "(Ayaw pagsulti. Pagpili og bato.)", "reply": "Nag-hum siya. Nakakita ka og laing bato, ug usa pa.", "after": "Mao kini ang labing nindot nga bahin sa adlaw, ug wala pa nimo kini nahibal-an."}]},
+    "court": {"how": "Pislita ang E kung naa sa bulawan ang marka. Duha sa tulo.", "score": "{made} sulod · {shot} sa {total} ka tira", "yes": "sulod!", "no": "klang", "won": "Duha sa tulo. Walay mituo, mao nga gibalik-balik nimo hangtod sa pag-uli.", "lost": "Walay misulod. Ingon si Kuya, hangin daw. Walay hangin."},
+    "market": {"how": "Pangitaa si Lola (lavender, puti ang buhok). Duol niya. E aron tawgon siya.", "time": "{s}", "shout": "Lola!", "answer": "Anak!", "found": "Ania ra diay ka!", "calling": "Anak! Anak!", "won": "Ikaw ang unang nakakita niya. Hugot kaayo ang iyang kupot sa imong kamot, ug nagpakaaron-ingnon siya nga wala mahadlok.", "lost": "Siya ang nakakita nimo. Ang iyang tingog, nagtawag sa imong ngalan nga tibuok, unya ang iyang kamot, hugot kaayo."},
+    "creek": {"how": "Adto sa lawom nga bahin. Kung motan-aw si Aling Ising, tago sa likod sa sagbot o sa bangko.", "tries": "nabilin nga higayon: {n}", "made": "Dinhi!", "caught": "Hoy! Isumbong tika sa imong Lola!", "won": "Nalabyan nimo si Aling Ising ug ang iyang labada, hangtod sa lawom. Wala gani siya molingi.", "lost": "Nakita ka ni Aling Ising, tulo ka higayon. Milusong ka gihapon."}
+  },
+
+  "dialogue": {
+    "lola_intro": [
+      "@lola: Oh, nimata na ka. Nikaon na ka?",
+      "@lola: Naa pay sinangag sa lamesa. Permi ka lang mo-skip og pamahaw kung mouli ka.",
+      "@lola: 'Nak, palita sa ko og suka kang Cora. Kadtong gamay lang. Ingna nga ilista lang sa."
+    ],
+    "lola_errand_wait": ["@lola: Suka, 'nak. Kang Cora. Diha ra, lapas sa court."],
+    "lola_thanks": [
+      "@lola: Ayan. Ibutang lang sa kusina unya.",
+      "@lola: Usa pa, 'nak. Wala nako makit-i akong daan nga lata. Kadtong sa biskwit, nga naay nagsayaw nga mga babaye sa taklob.",
+      "@lola: Basin naay silingan nga nakakita. Pangutana-pangutana, ha?",
+      "@lola: Ug hinay-hinay lang og lakaw. Murag naay naggukod nimo."
+    ],
+    "lola_waiting": ["@lola: Wala pa nimo makit-i? Sige lang, ayaw pagdali.", "@lola: Basta uli sa dili pa mongitngit."],
+    "wake_arrive": [
+      "Nagsiga na ang suga sa poste atubangan sa balay.",
+      "Walay naglingkod sa bangko.",
+      "Ang matag balay sa dalan nagpahulam og lingkuranan. Ania silang tanan, nag-atubang sa usa ra ka direksyon.",
+      "@cora: Uy, ania na ka. Asa man ka gikan? Tibuok hapon ka namong gipangita.",
+      "@tonyo: Pasagdi na. Naglakaw-lakaw lang na.",
+      "@tonyo: Nakig-uban mi sa imong kasubo, 'nak.",
+      "Wala nay laing nagsulti. Naay nagtunol og usa ka tasa nga kape sa imong kamot."
+    ],
+    "door_final": [
+      "Abli ang pultahan. Wala gyud kini gi-lock, ug wala gihapoy ni-lock karon.",
+      "Naa siya sa sala, diin kaniadto ang mga nindot nga lingkuranan.",
+      "Murag gipahulay lang niya iyang mata, sama sa iyang batasan human sa paniudto.",
+      "Giablihan nimo pag-usab ang lata. Ilalom sa mga teks, gipapilit sa sulod sa taklob, naay laing papel.",
+      "Dili kini imong sinulat-kamot."
+    ],
+    "door_all": ["Gilakaw nimo ang tibuok barangay karong adlawa. Naa ang tanan, diin niya giingon nga naa."],
+
+    "cora_first": ["@cora: Ay! Ikaw diay. Kadako na nimo! Kanus-a ka niabot?", "@cora: Hangtod Domingo ra daw ka? Sayang. Kadali ra kaayo."],
+    "cora_suka": ["@cora: Suka? Para sa... ay.", "@cora: Sige. Dad-a na. Ayaw na bayri.", "Giputos niya ang botelya sa dyaryo, mas maampingon kaysa gikinahanglan sa usa ka botelya sa suka."],
+    "cora_suka_wait": ["@cora: Sige na, iuli na na."],
+    "cora_favor": ["@cora: Kay maglakaw-lakaw man pud ka. Palihug dad-a ni kang Nong Tonyo.", "Usa ka tubo sa pandikit ug gamay nga kahon sa lansang.", "@cora: Kahibalo na siya kung para asa ni."],
+    "cora_tin": ["@cora: Lata? Kadtong sa biskwit?", "@cora: Hala. Permi nimo na dad-on diri matag hapon. Nagkalanting. Puro piso."],
+    "cora_photo": [
+      "@cora: Kadiyot. Naa pa koy butang.",
+      "Gikuha niya ang usa ka litrato sa bungbong luyo sa mga garapon sa kendi. Nanilaw na ang teyp.",
+      "@cora: Imoha na. Wala ko kahibalo kinsay nagkuha ani. Dili ako, busy ko og ihap sa imong sensilyo.",
+      "Pindota ang Q aron tan-awon ang litrato."
+    ],
+    "cora_after": ["@cora: Singko pesos na ang ice candy karon. Tanan nagmahal, 'no?", "@cora: Gawas sa atop. Mao ra gihapon ang atop."],
+
+    "tonyo_first": ["@tonyo: Init kaayo karon, 'no? Dili na kaayo mogawas ang mga bata diri.", "@tonyo: Kaniadto, saba kaayo matag hapon."],
+    "tonyo_tin": [
+      "@tonyo: Ang lata sa imong Lola? Akong gihulam kausa. Para sa lansang. Gibalik nako! Promise.",
+      "@tonyo: Last nakong kakita ato, naa nimo. Ikaw ug ang inyong saba nga barkada, nagdagan padulong sa court.",
+      "@tonyo: Magdula mo hangtod mosiga ang mga suga. Unya mosinggit na ang tanang lola og mga ngalan.",
+      "@tonyo: Hilom na karon. Mas ganahan pa ko sa saba."
+    ],
+    "tonyo_delivery": [
+      "@tonyo: Ah, ania na diay. Salamat. Kaganina pa nako ni hulata.",
+      "@tonyo: Gi-ayo nako ang mga daan nga lingkuranan. Kinahanglan unya, daghan.",
+      "@tonyo: Palihug ingna si Ma'am Linda, ang mga lingkuranan sa eskwelahan, ako na ang mokuha. Siya na'y bahala sa yawe."
+    ],
+    "tonyo_after": ["@tonyo: Kung makita nimo imong mga amigo, ingna sila nga baliko gihapon ang ring. Wala gyuy nibayad nako para ayuhon."],
+
+    "linda_first": ["@linda: Yes? Sirado na ang office... Ay. Ikaw na ba?", "@linda: Grade four. Likod nga row. Permi nagtan-aw sa orasan."],
+    "linda_tin": ["@linda: Lata? Hay. Gikumpiska nako na nimo kausa. Mihilak ka, mao nga gibalik nako.", "@linda: Sulod, tan-aw-tan-aw. Walay tawo. Mao ra gihapon ang flagpole."],
+    "linda_message": [
+      "@linda: Ang mga lingkuranan? Oo, sige. Ingna siya nga kuhaon na sa dili pa mag-alas-singko.",
+      "@linda: Ikaw pa gyud ang gisugo. Ikaw pa gyud. ...Sige.",
+      "@linda: Palihug ihatag pud ni kang Mila sa carinderia. Lista lang. Para unyang gabii."
+    ],
+    "linda_after": ["@linda: Mobalik silang tanan nga mas taas ug mas hilom. Dili gyud ko maanad."],
+
+    "court": ["Gamay nga baliko ang ring. Wala na ang net.", "Usa ka bata, nag-inusara og shoot. Kaniadto, napulo mo nag-ilog para lang makatira."],
+    "baller": ["@baller: Kuya, shoot mo?", "Gipasa niya nimo ang bola. Wala nimo masulod. Buotan siya bahin ato.", "@baller: Wala na man gud laing nagdula. Naa ra tanan sa balay."],
+    "nena": ["@nena: Ay, ikaw na ba? Wala ko kaila nimo. Niwang kaayo ka kaniadto.", "@nena: Sige, mamalengke pa ko. Kumusta lang ko sa imong Lola."],
+    "jun": ["@jun: Uy. Unsay balita?", "Nakalapas na siya nimo. Ang tanan diri maglakaw na murag naay ginagukod."],
+    "liza": ["@liza: Uy! Kanus-a ka niabot? Bisita sa balay, ha.", "Giingon niya kini sama sa pag-ingon sa mga tawo nga kahibalo nga dili ka moadto."],
+    "dog": ["Usa ka iro sa dalan. Nakadesisyon nga dili ka interesante, unya nausab iyang hunahuna."],
+    "cat": ["Ang iring ni Nong Tonyo. Nalabwan na niya ang duha ka bisikleta ug usa ka karaoke."],
+    "court_after": ["Gamay nga baliko ang ring. Wala na ang net.", "Dili diay kaayo taas."],
+    "court_bench": ["Naay mga ngalan nga gikulit sa kahoy. Naa ang imoha.", "Sayop imong spelling."],
+
+    "flagpole": ["Usa ka flagpole. Mopikpik ang pisi niini kung mohuyop ang hangin."],
+    "flagpole_after": ["Bag-o na ang pintura. Mopikpik gihapon ang pisi.", "Hapit na nimo maabot ang tumoy kung molukso ka."],
+
+    "tree": ["Usa ka karaan nga kahoy sa bakanteng lote. Guba na ang koral sukad pa sa imong nahinumdoman.", "Naay kung unsa niini. Dili pa nimo matino."],
+    "tree_dig": ["Humok ang yuta taliwala sa mga gamut.", "Nagkalot ka gamit ang imong kamot, sama kaniadto."],
+    "tree_found": [
+      "Metal. Usa ka taklob nga naay nagsayaw nga mga babaye, halos taya na.",
+      "Sa sulod: usa ka holen, tulo ka teks nga nagdikit-dikit, ug usa ka pinilo nga papel.",
+      "Pindota ang R aron basahon ang sulat."
+    ],
+    "tree_after": ["Usa ka lungag taliwala sa mga gamut. Mas gamay kaysa imong gihunahuna."],
+
+    "realize": [
+      "Gikuha nimo pag-usab ang litrato.",
+      "Ang tindahan. Ang court. Tanan nagpiyong-piyong sa adlaw.",
+      "Naa pay usa ka lugar. Nahinumdom ka sa yuta ilalom sa imong kuko. Nahinumdom ka og usa ka kahoy."
+    ],
+
+    "creek": ["Ang sapa. Mas ubos kaysa imong nahinumdoman, o mitaas lang ang pangpang."],
+    "creek_after": ["Modagayday ang tubig diin kini permi modagayday.", "Murag wala kini nagdali."],
+
+    "kid": ["@kid: Kuya, naa kay load? Pa-hotspot ko.", "Wala siya mohangad gikan sa cellphone."],
+    "vendor": [
+      "@vendor: Fishball, kikiam, kwek-kwek. Tuslok lang.",
+      "@vendor: Kaniadto, hurot na ni sa alas-kuwatro. Mogawas ang eskwela, linya dayon.",
+      "@vendor: Karon..."
+    ],
+    "pisonet": [
+      "PISONET. P1 = 5 MINS. Ilalom ana, usa ka sinulat-kamot nga karatula: BAWAL SINGGIT. BAWAL TRASH TALK.",
+      "Patay ang mga screen. Sa bintana: upat ka monitor ug usa ka electric fan."
+    ],
+    "fountain": ["Pila na ka tuig nga wala nagdagan ang fountain.", "Naa gihapoy naglimpyo sa mga sensilyo diri."],
+    "fountain_after": ["Walay tubig. Naa gihapoy pipila ka sensilyo. Naa gihapoy mohangyo diri."],
+    "pisonet_after": ["Upat ka patay nga monitor.", "Kaya na nimo bayran tanan karon, bisan unsa kadugay."],
+    "lola_bench_after": ["Maabot na sa imong tiil ang yuta. Dugay na."],
+    "chapel": ["Ang kapilya. Abli ang pultahan, sama sa kanunay."],
+    "chapel_after": ["Bag-ong barnis ang mga lingkuranan. Mo-kiyak gihapon sa samang dapit."],
+    "market": ["Mga kaing sa kalamansi ug sitaw. Naay radyo nga nagpatugtog, hinay."],
+    "market_after": ["Kaya na nimo dad-on ang bayong. Walay nagsugo."],
+    "bakery": ["PANADERIA. Nag-alisngaw ang baso gikan sa sulod."],
+    "bakery_after": ["Migamay na daw ang pandesal. Mao ingon sa tanan.", "Basin midako ra imong kamot."],
+    "carinderia": ["Usa ka bangko sa gawas sa carinderia, gipasinaw sa kwarenta ka tuig nga paghulat og kan-on."],
+    "rosa": ["@rosa: Sitaw, talong, kalamansi! Suki, palit na!", "@rosa: Ay. Ikaw kadtong bata nga nawala diri kaniadto. Mihilak imong Lola, kahibalo ka?"],
+    "karding": ["@karding: Presko na, ganina lang buntag.", "@karding: Gamay na lang ang mamalit. Naa na silang tanan sa mall."],
+    "mila": ["@mila: Kaon! Naay adobo, naay ginisang monggos. Biyernes man.", "@mila: Nakalista pa gihapon ang utang sa imong papa. Joke lang. Kaon na."],
+    "mila_list": [
+      "@mila: Tan-awa ko. ...Pancit, puto, kape. Daghang kape.",
+      "@mila: Kaya ra na. Ingna ang... sige, ako na'y bahala.",
+      "@mila: Ang pan, kang Berto. Agi-i. Ingna nga para sa inyo."
+    ],
+    "mila_after": ["@mila: Kaon sa ka sa dili pa ka molakaw. Dili pwede nga walay sulod imong tiyan karon."],
+    "berto_bread": [
+      "@berto: Para sa inyo? Oo, gitagana na.",
+      "@berto: Ako na'y modala unya, bug-at. Ayaw na bayri.",
+      "@berto: Suki nako imong Lola, traynta ka tuig. Alas-kuwatro permi. Mas nauna pa nako."
+    ],
+    "berto_after": ["@berto: Unya na ta mag-istorya. Naa ra man ko didto."],
+    "berto": ["@berto: Pandesal? Unya pang alas-kuwatro ang bag-ong luto.", "@berto: Alas-kuwatro sa kadlawon. Wala na nausab. Mao ra tingali to ang wala."],
+    "lola_bench": ["Usa ka kahoy nga bangko. Mas gasgas ang tuo kaysa sa wala."],
+    "tires": ["Mga ligid ni Nong Tonyo. VULCANIZING ang nakapintal sa bungbong, sa tulo ka lain-laing sinulat-kamot."],
+    "car": ["Usa ka sakyanan, nakaparking diin ka kaniadto magdrowing og piko gamit ang chalk."],
+    "home_door": ["Ang pultahan ni Lola. Wala gyud ni gi-lock, hangtod karon."]
+  }
+}
